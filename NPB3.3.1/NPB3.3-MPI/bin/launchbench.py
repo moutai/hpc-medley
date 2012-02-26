@@ -3,7 +3,7 @@ import subprocess
 import string 
 listbench=open('listofbenchs','r')
 #fresults =open ('results.txt','w')
-currentbenchtorun='lu'
+currentbenchtorun='bt'
 
 for currentbench in listbench.readlines():
 	currentbench=currentbench.strip().rstrip()
@@ -25,7 +25,6 @@ for currentbench in listbench.readlines():
 		p=subprocess.Popen(command2run, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 		for outputline in p.stdout.readlines():
                 	print outputline        	
-
 
 listbench.close()
 #fresults.close()
