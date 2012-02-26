@@ -27,9 +27,9 @@
 #lu	B	100
 
 
-bt      C       9
-bt      C       16
-bt      C       25
+sp      C       9
+sp      C       16
+sp      C       25
 
 
 #lu      D       16

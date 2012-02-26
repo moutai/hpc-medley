@@ -3,7 +3,7 @@ import subprocess
 import string 
 listbench=open('listofbenchs','r')
 #fresults =open ('results.txt','w')
-currentbenchtorun='bt'
+currentbenchtorun='sp'
 
 for currentbench in listbench.readlines():
 	currentbench=currentbench.strip().rstrip()
