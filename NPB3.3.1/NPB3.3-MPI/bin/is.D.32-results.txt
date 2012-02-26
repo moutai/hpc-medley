@@ -1,0 +1,8 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  2147483648  (class D)
+ Iterations:   10
+ Number of processes:     32
+2 total processes killed (some possibly by mpirun during cleanup)

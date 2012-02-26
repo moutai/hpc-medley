@@ -1,0 +1,325 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>DARPA/DOE HPC&#XA0;Challenge Benchmark version 1.4.1
+</TITLE>
+
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<META name="GENERATOR" content="hevea 1.10">
+<STYLE type="text/css">
+.li-itemize{margin:1ex 0ex;}
+.li-enumerate{margin:1ex 0ex;}
+.dd-description{margin:0ex 0ex 1ex 4ex;}
+.dt-description{margin:0ex;}
+.toc{list-style:none;}
+.thefootnotes{text-align:left;margin:0ex;}
+.dt-thefootnotes{margin:0em;}
+.dd-thefootnotes{margin:0em 0em 0em 2em;}
+.footnoterule{margin:1em auto 1em 0px;width:50%;}
+.caption{padding-left:2ex; padding-right:2ex; margin-left:auto; margin-right:auto}
+.title{margin:2ex auto;text-align:center}
+.center{text-align:center;margin-left:auto;margin-right:auto;}
+.flushleft{text-align:left;margin-left:0ex;margin-right:auto;}
+.flushright{text-align:right;margin-left:auto;margin-right:0ex;}
+DIV TABLE{margin-left:inherit;margin-right:inherit;}
+PRE{text-align:left;margin-left:0ex;margin-right:auto;}
+BLOCKQUOTE{margin-left:4ex;margin-right:4ex;text-align:left;}
+TD P{margin:0px;}
+.boxed{border:1px solid black}
+.textboxed{border:1px solid black}
+.vbar{border:none;width:2px;background-color:black;}
+.hbar{border:none;height:2px;width:100%;background-color:black;}
+.hfill{border:none;height:1px;width:200%;background-color:black;}
+.vdisplay{border-collapse:separate;border-spacing:2px;width:auto; empty-cells:show; border:2px solid red;}
+.vdcell{white-space:nowrap;padding:0px;width:auto; border:2px solid green;}
+.display{border-collapse:separate;border-spacing:2px;width:auto; border:none;}
+.dcell{white-space:nowrap;padding:0px;width:auto; border:none;}
+.dcenter{margin:0ex auto;}
+.vdcenter{border:solid #FF8000 2px; margin:0ex auto;}
+.minipage{text-align:left; margin-left:0em; margin-right:auto;}
+.marginpar{border:solid thin black; width:20%; text-align:left;}
+.marginparleft{float:left; margin-left:0ex; margin-right:1ex;}
+.marginparright{float:right; margin-left:1ex; margin-right:0ex;}
+.theorem{text-align:left;margin:1ex auto 1ex 0ex;}
+.part{margin:2ex auto;text-align:center}
+.verbatim {background: #ffffee; border: 1px solid silver; padding: 0.5em;}
+TT {color:navy}
+H2, H3, H4 {color: #527bbd;}
+H2 {border-bottom: 2px solid silver;}
+</STYLE>
+</HEAD>
+<BODY >
+<!--HEVEA command line is: /usr/bin/hevea README.tex -->
+<!--CUT DEF section 1 --><TABLE CLASS="title"><TR><TD><H1 CLASS="titlemain">DARPA/DOE HPC&#XA0;Challenge Benchmark version 1.4.1</H1><H3 CLASS="titlerest">Piotr Luszczek<SUP><A NAME="text1" HREF="#note1">*</A></SUP></H3></TD></TR>
+</TABLE><!--TOC section Introduction-->
+<H2 CLASS="section"><!--SEC ANCHOR --><A NAME="htoc1">1</A>&#XA0;&#XA0;Introduction</H2><!--SEC END --><P>
+This is a suite of benchmarks that measure performance of processor,
+memory subsytem, and the interconnect. For details refer to the
+HPC&#XA0;Challenge web site (<TT>http://icl.cs.utk.edu/hpcc/</TT>.)</P><P>In essence, HPC&#XA0;Challenge consists of a number of subbenchmarks each
+of which tests a different aspect of the system.</P><P>If you are familiar with the High Performance Linpack&#XA0;(HPL) benchmark
+code (see the HPL web site:
+<TT>http://www.netlib.org/benchmark/hpl/</TT>) then you can reuse the
+build script file&#XA0;(input for <TT>make(1)</TT> command) and the input
+file that you already have for HPL. The HPC&#XA0;Challenge benchmark
+includes HPL and uses its build script and input files with only
+slight modifications. The most important change must be done to the
+line that sets the <TT>TOPdir</TT> variable. For HPC&#XA0;Challenge, the
+variable&#X2019;s value should always be <TT>../../..</TT> regardless of what
+it was in the HPL build script file.</P><!--TOC section Compiling-->
+<H2 CLASS="section"><!--SEC ANCHOR --><A NAME="htoc2">2</A>&#XA0;&#XA0;Compiling</H2><!--SEC END --><P>
+The first step is to create a build script file that reflects
+characteristics of your machine. This file is reused by all the
+components of the HPC&#XA0;Challenge suite. The build script file should be
+created in the <TT>hpl</TT> directory. This directory contains
+instructions (the files <TT>README</TT> and <TT>INSTALL</TT>) on how
+to create the build script file for your system. The
+<TT>hpl/setup</TT> directory contains many examples of build script
+files. A recommended approach is to copy one of them to the
+<TT>hpl</TT> directory and if it doesn&#X2019;t work then change it.</P><P>The build script file has a name that starts with <TT>Make.</TT>
+prefix and usally ends with a suffix that identifies the target
+system. For example, if the suffix chosen for the system is
+<TT>Unix</TT>, the file should be named <TT>Make.Unix</TT>.</P><P>To build the benchmark executable (for the system named <TT>Unix</TT>)
+type: <TT>make arch=Unix</TT>. This command should be run in the top
+directory&#XA0;(not in the <TT>hpl</TT> directory). It will look in the
+<TT>hpl</TT> directory for the build script file and use it to build
+the benchmark executable.</P><P>The runtime behavior of the HPC&#XA0;Challenge source code may be
+configured at compiled time by defining a few C preprocessor
+symbols. They can be defined by adding appropriate options to
+<TT>CCNOOPT</TT> and <TT>CCFLAGS</TT> make variables. The former
+controls options for source code files that need to be compiled
+without aggressive optimizations to ensure accurate generation of
+system-specific parameters. The latter applies to the rest of the
+files that need good compiler optimization for best performance. To
+define a symbol <TT>S</TT>, the majority of compilers requires option
+<TT>-DS</TT> to be used. Currently, the following options are
+available in the HPC&#XA0;Challenge source code:
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+<TT>HPCC_FFT_235</TT>: if this symbol is defined the FFTE
+code (an FFT implementation) will use vector sizes and processor
+counts that are not limited to powers of 2. Instead, the vector sizes
+and processor counts to be used will be a product of powers of 2, 3,
+and 5.
+</LI><LI CLASS="li-itemize"><TT>HPCC_FFTW_ESTIMATE</TT>: if this symbol is defined it will
+affect the way external FFTW library is called&#XA0;(it does not have any
+effect if the FFTW library is not used). When defined, this symbol
+will call the FFTW planning routine with <TT>FFTW_ESTIMATE</TT>
+flag&#XA0;(instead of <TT>FFTW_MEASURE</TT>). This might result with worse
+performance results but shorter execution time of the
+benchmark. Defining this symbol may also positively affect the memory
+fragmentation caused by the FFTW&#X2019;s planning routine.
+</LI><LI CLASS="li-itemize"><TT>HPCC_MEMALLCTR</TT>: if this symbol is defined a custom
+memory allocator will be used to alleviate effects of memory
+fragmentation and allow for larger data sets to be used which may
+result in obtaining better performance.
+</LI><LI CLASS="li-itemize"><TT>HPL_USE_GETPROCESSTIMES</TT>: if this symbol is defined
+then Windows-specific <TT>GetProcessTimes()</TT> function will be used
+to measure the elapsed CPU time.
+</LI><LI CLASS="li-itemize"><TT>USE_MULTIPLE_RECV</TT>: if this symbol is defined then multiple non-blocking
+receives will be posted simultaneously. By default only one non-blocking
+receive is posted.
+</LI><LI CLASS="li-itemize"><TT>RA_SANDIA_NOPT</TT>: if this symbol is defined the
+HPC&#XA0;Challenge standard algorithm for Global RandomAccess will not be
+used. Instead, an alternative implementation from Sandia
+National Laboratory will be used. It routes messages in software
+across virtual hyper-cube topology formed from MPI processes.
+</LI><LI CLASS="li-itemize"><TT>RA_SANDIA_OPT2</TT>: if this symbol is defined the
+HPC&#XA0;Challenge standard algorithm for Global RandomAccess will not be
+used. Instead, instead an alternative implementation from Sandia
+National Laboratory will be used. This implementation is optimized for
+number of processors being powers of two. The optimizations
+are sorting of data before sending and unrolling the data update
+loop. If the number of process is not a power two then the code
+is the same as the one performed with the <TT>RA_SANDIA_NOPT</TT> setting.
+</LI><LI CLASS="li-itemize"><TT>USING_FFTW</TT>: if this symbol is defined the standard
+HPC&#XA0;Challenge FFT implemenation&#XA0;(called FFTE) will not be used.
+Instead, FFTW library will be called. Defining the
+<TT>USING_FFTW</TT> symbol is not sufficient: appropriate flags have
+to be added in the make script so that FFTW headers files can be found
+at compile time and the FFTW libraries at link time.
+</LI></UL><!--TOC section Runtime Configuration-->
+<H2 CLASS="section"><!--SEC ANCHOR --><A NAME="htoc3">3</A>&#XA0;&#XA0;Runtime Configuration</H2><!--SEC END --><P>
+The HPC&#XA0;Challenge is driven by a short input file named
+<TT>hpccinf.txt</TT> that is almost the same as the input file for
+HPL&#XA0;(customarily called <TT>HPL.dat</TT>). Refer to the directory
+<TT>hpl/www/tuning.html</TT> for details about the input file for
+HPL. A sample input file is included with the HPC&#XA0;Challenge
+distribution.</P><P>The differences between HPL&#X2019;s input file and HPC&#XA0;Challenge&#X2019;s input
+file can be summarized as follows:</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Lines 3 and 4 are ignored. The output is always appended to the
+file named <TT>hpccoutf.txt</TT>.
+</LI><LI CLASS="li-itemize">There are additional lines&#XA0;(starting with line 33) that may&#XA0;(but
+do not have to) be used to customize the HPC&#XA0;Challenge benchmark. They
+are described below.
+</LI></UL><P>The additional lines in the HPC&#XA0;Challenge input file&#XA0;(compared to the
+HPL input file) are:</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Lines 33 and 34 describe additional matrix sizes to be used for
+running the PTRANS benchmark&#XA0;(one of the components of the
+HPC&#XA0;Challenge benchmark).
+</LI><LI CLASS="li-itemize">Lines 35 and 36 describe additional blocking factors to be used
+for running the PTRANS test.
+</LI></UL><P>Just for completeness, here is the list of lines of the HPC
+Challenge&#X2019;s input file and brief description of their meaning:
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Line 1: ignored
+</LI><LI CLASS="li-itemize">Line 2: ignored
+</LI><LI CLASS="li-itemize">Line 3: ignored
+</LI><LI CLASS="li-itemize">Line 4: ignored
+</LI><LI CLASS="li-itemize">Line 5: number of matrix sizes for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 6: matrix sizes for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 7: number of blocking factors for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 8: blocking factors for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 9: type of process ordering for HPL
+</LI><LI CLASS="li-itemize">Line 10: number of process grids for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 11: numbers of process rows of each process grid for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 12: numbers of process columns of each process grid for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 13: threshold value not to be exceeded by scaled residual for HPL (and PTRANS)
+</LI><LI CLASS="li-itemize">Line 14: number of panel factorization methods for HPL
+</LI><LI CLASS="li-itemize">Line 15: panel factorization methods for HPL
+</LI><LI CLASS="li-itemize">Line 16: number of recursive stopping criteria for HPL
+</LI><LI CLASS="li-itemize">Line 17: recursive stopping criteria for HPL
+</LI><LI CLASS="li-itemize">Line 18: number of recursion panel counts for HPL
+</LI><LI CLASS="li-itemize">Line 19: recursion panel counts for HPL
+</LI><LI CLASS="li-itemize">Line 20: number of recursive panel factorization methods for HPL
+</LI><LI CLASS="li-itemize">Line 21: recursive panel factorization methods for HPL
+</LI><LI CLASS="li-itemize">Line 22: number of broadcast methods for HPL
+</LI><LI CLASS="li-itemize">Line 23: broadcast methods for HPL
+</LI><LI CLASS="li-itemize">Line 24: number of look-ahead depths for HPL
+</LI><LI CLASS="li-itemize">Line 25: look-ahead depths for HPL
+</LI><LI CLASS="li-itemize">Line 26: swap methods for HPL
+</LI><LI CLASS="li-itemize">Line 27: swapping threshold for HPL
+</LI><LI CLASS="li-itemize">Line 28: form of L1 for HPL
+</LI><LI CLASS="li-itemize">Line 29: form of U for HPL
+</LI><LI CLASS="li-itemize">Line 30: value that specifies whether equilibration should be used by HPL
+</LI><LI CLASS="li-itemize">Line 31: memory alignment for HPL
+</LI><LI CLASS="li-itemize">Line 32: ignored
+</LI><LI CLASS="li-itemize">Line 33: number of additional problem sizes for PTRANS
+</LI><LI CLASS="li-itemize">Line 34: additional problem sizes for PTRANS
+</LI><LI CLASS="li-itemize">Line 35: number of additional blocking factors for PTRANS
+</LI><LI CLASS="li-itemize">Line 36: additional blocking factors for PTRANS
+</LI></UL><!--TOC section Running-->
+<H2 CLASS="section"><!--SEC ANCHOR --><A NAME="htoc4">4</A>&#XA0;&#XA0;Running</H2><!--SEC END --><P>
+The exact way to run the HPC&#XA0;Challenge benchmark depends on the MPI
+implementation and system details. An example command to run the
+benchmark could like like this: <TT>mpirun -np 4 hpcc</TT>. The
+meaning of the command&#X2019;s components is as follows:
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+<TT>mpirun</TT> is the command that starts execution of an MPI
+code. Depending on the system, it might also be <TT>aprun</TT>,
+<TT>mpiexec</TT>, <TT>mprun</TT>, <TT>poe</TT>, or something
+appropriate for your computer.</LI><LI CLASS="li-itemize"><TT>-np 4</TT> is the argument that specifies that 4 MPI
+processes should be started. The number of MPI processes should be
+large enough to accomodate all the process grids specified in the
+<TT>hpccinf.txt</TT> file.</LI><LI CLASS="li-itemize"><TT>hpcc</TT> is the name of the HPC&#XA0;Challenge executable to
+run.
+</LI></UL><P>After the run, a file called <TT>hpccoutf.txt</TT> is created. It
+contains results of the benchmark. This file should be uploaded
+through the web form at the HPC&#XA0;Challenge website.</P><!--TOC section Source Code Changes across Versions (ChangeLog)-->
+<H2 CLASS="section"><!--SEC ANCHOR --><A NAME="htoc5">5</A>&#XA0;&#XA0;Source Code Changes across Versions (ChangeLog)</H2><!--SEC END --><!--TOC subsection Version 1.4.1 (2010-06-01)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc6">5.1</A>&#XA0;&#XA0;Version 1.4.1 (2010-06-01)</H3><!--SEC END --><OL CLASS="enumerate" type=1><LI CLASS="li-enumerate">
+Added optimized variants of RandomAccess that use Linear Congruential Generator for random number generation.
+</LI><LI CLASS="li-enumerate">Made corrections to comments that provide definition of the RandomAccess test.
+</LI><LI CLASS="li-enumerate">Removed initialization of the main array from the timed section of optimized versions of RandomAccess.
+</LI><LI CLASS="li-enumerate">Fixed the length of the vector used to compute error when using MPI implementation from FFTW.
+</LI><LI CLASS="li-enumerate">Added global reduction to error calculation to achieve more accurate error estimate.
+</LI><LI CLASS="li-enumerate">Updated documentation in README.
+</LI></OL><!--TOC subsection Version 1.4.0 (2010-03-26)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc7">5.2</A>&#XA0;&#XA0;Version 1.4.0 (2010-03-26)</H3><!--SEC END --><OL CLASS="enumerate" type=1><LI CLASS="li-enumerate">
+Added new variant of RandomAccess that uses Linear Congruential Generator for random number generation.
+</LI><LI CLASS="li-enumerate">Rearranged the order of benchmarks so that HPL component runs last and may be aborted
+if the performance of other components was not satisfactory. RandomAccess is now first to assist in tuning
+the code.
+</LI><LI CLASS="li-enumerate">Added global initialization and finalization routine that allows to properly initialize
+and finalize external software and hardware components without changing the rest of the HPCC testing harness.
+</LI><LI CLASS="li-enumerate">Lack of <TT>hpccinf.txt</TT> is no longer reported as error but as a warning.
+</LI></OL><!--TOC subsection Version 1.3.2 (2009-03-24)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc8">5.3</A>&#XA0;&#XA0;Version 1.3.2 (2009-03-24)</H3><!--SEC END --><OL CLASS="enumerate" type=1><LI CLASS="li-enumerate">
+Fixed memory leaks in G-RandomAccess driver routine.
+</LI><LI CLASS="li-enumerate">Made the check for 32-bit vector sizes in G-FFT optional. MKL allows for 64-bit vector sizes in its FFTW wrapper.
+</LI><LI CLASS="li-enumerate">Fixed memory bug in single-process FFT.
+</LI><LI CLASS="li-enumerate">Update documentation (README).
+</LI></OL><!--TOC subsection Version 1.3.1 (2008-12-09)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc9">5.4</A>&#XA0;&#XA0;Version 1.3.1 (2008-12-09)</H3><!--SEC END --><OL CLASS="enumerate" type=1><LI CLASS="li-enumerate">
+Fixed a dead-lock problem in FFT component due to use of wrong communicator.
+</LI><LI CLASS="li-enumerate">Fixed the 32-bit random number generator in PTRANS that was using 64-bit
+routines from HPL.
+</LI></OL><!--TOC subsection Version 1.3.0 (2008-11-13)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc10">5.5</A>&#XA0;&#XA0;Version 1.3.0 (2008-11-13)</H3><!--SEC END --><OL CLASS="enumerate" type=1><LI CLASS="li-enumerate">
+Updated HPL component to use HPL 2.0 source code
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Replaced 32-bit Pseudo Random Number Generator (PRNG) with a 64-bit one.
+</LI><LI CLASS="li-enumerate">Removed 3 numerical checks of the solution residual with a single one.
+</LI><LI CLASS="li-enumerate">Added support for 64-bit systems with large memory sizes (before they would
+overflow during index calculations 32-bit integers.)
+</LI></OL>
+</LI><LI CLASS="li-enumerate">Introduced a limit on FFT vector size so they fit in a 32-bit integer (only
+applicable when using FFTW version 2.)
+</LI></OL><!--TOC subsection Version 1.2.0 (2007-06-25)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc11">5.6</A>&#XA0;&#XA0;Version 1.2.0 (2007-06-25)</H3><!--SEC END --><OL CLASS="enumerate" type=1><LI CLASS="li-enumerate">
+Changes in the FFT component:
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Added flexibility in choosing vector sizes and processor counts:
+now the code can do powers of 2, 3, and 5 both sequentially and in parallel
+tests.
+</LI><LI CLASS="li-enumerate">FFTW can now run with ESTIMATE (not just MEASURE) flag: it might produce
+worse performance results but often reduces time to run the test and cuases
+less memory fragmentation.
+</LI></OL>
+</LI><LI CLASS="li-enumerate">Changes in the DGEMM component:
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Added more comprehensive checking of the numerical properties of the
+test&#X2019;s results.
+</LI></OL>
+</LI><LI CLASS="li-enumerate">Changes in the RandomAccess component:
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Removed time-bound functionality: only runs that perform complete
+computation are now possible.
+</LI><LI CLASS="li-enumerate">Made the timing more accurate: main array initialization is not counted
+towards performance timing.
+</LI><LI CLASS="li-enumerate">Cleaned up the code: some non-portable C language constructs have been
+removed.
+</LI><LI CLASS="li-enumerate">Added new algorithms: new algorithms from Sandia based on hypercube
+network topology can now be chosen at compile time which results on much
+better performance results on many types of parallel systems.
+</LI><LI CLASS="li-enumerate">Fixed potential resource leaks by adding function calls rquired by the MPI
+standard.
+</LI></OL>
+</LI><LI CLASS="li-enumerate">Changes in the HPL component:
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Cleaned up reporting of numerics: more accurate printing of scaled
+residual formula.
+</LI></OL>
+</LI><LI CLASS="li-enumerate">Changes in the PTRANS component:
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Added randomization of virtual process grids to measure bandwidth of the
+network more accurately.
+</LI></OL>
+</LI><LI CLASS="li-enumerate">Miscellaneous changes:
+<OL CLASS="enumerate" type=a><LI CLASS="li-enumerate">
+Added better support for Windows-based clusters by taking advantage of
+Win32 API.
+</LI><LI CLASS="li-enumerate">Added custom memory allocator to deal with memory fragmentation on some
+systems.
+</LI><LI CLASS="li-enumerate">Added better reporting of configuration options in the output file.
+</LI></OL>
+</LI></OL><!--TOC subsection Version 1.0.0 (2005-06-11)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc12">5.7</A>&#XA0;&#XA0;Version 1.0.0 (2005-06-11)</H3><!--SEC END --><!--TOC subsection Version 0.8beta (2004-10-19)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc13">5.8</A>&#XA0;&#XA0;Version 0.8beta (2004-10-19)</H3><!--SEC END --><!--TOC subsection Version 0.8alpha (2004-10-15)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc14">5.9</A>&#XA0;&#XA0;Version 0.8alpha (2004-10-15)</H3><!--SEC END --><!--TOC subsection Version 0.6beta (2004-08-21)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc15">5.10</A>&#XA0;&#XA0;Version 0.6beta (2004-08-21)</H3><!--SEC END --><!--TOC subsection Version 0.6alpha (2004-05-31)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc16">5.11</A>&#XA0;&#XA0;Version 0.6alpha (2004-05-31)</H3><!--SEC END --><!--TOC subsection Version 0.5beta (2003-12-01)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc17">5.12</A>&#XA0;&#XA0;Version 0.5beta (2003-12-01)</H3><!--SEC END --><!--TOC subsection Version 0.4alpha (2003-11-13)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc18">5.13</A>&#XA0;&#XA0;Version 0.4alpha (2003-11-13)</H3><!--SEC END --><!--TOC subsection Version 0.3alpha (2004-11-05)-->
+<H3 CLASS="subsection"><!--SEC ANCHOR --><A NAME="htoc19">5.14</A>&#XA0;&#XA0;Version 0.3alpha (2004-11-05)</H3><!--SEC END --><!--BEGIN NOTES document-->
+<HR CLASS="footnoterule"><DL CLASS="thefootnotes"><DT CLASS="dt-thefootnotes">
+<A NAME="note1" HREF="#text1">*</A></DT><DD CLASS="dd-thefootnotes">University of Tennessee Knoxville, Innovative
+Computing Laboratory
+</DD></DL>
+<!--END NOTES-->
+<!--CUT END -->
+<!--HTMLFOOT-->
+<!--ENDHTML-->
+<!--FOOTER-->
+<HR SIZE=2><BLOCKQUOTE CLASS="quote"><EM>This document was translated from L<sup>A</sup>T<sub>E</sub>X by
+</EM><A HREF="http://hevea.inria.fr/index.html"><EM>H</EM><EM><FONT SIZE=2><sup>E</sup></FONT></EM><EM>V</EM><EM><FONT SIZE=2><sup>E</sup></FONT></EM><EM>A</EM></A><EM>.</EM></BLOCKQUOTE></BODY>
+</HTML>
