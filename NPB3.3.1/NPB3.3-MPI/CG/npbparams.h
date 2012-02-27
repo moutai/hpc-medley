@@ -1,4 +1,4 @@
-c NPROCS = 128 CLASS = C
+c NPROCS = 16 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -15,13 +15,13 @@ c
 
 c number of nodes for which this version is compiled
         integer    nnodes_compiled
-        parameter( nnodes_compiled = 128)
+        parameter( nnodes_compiled = 16)
         integer    num_proc_cols, num_proc_rows
-        parameter( num_proc_cols=16, num_proc_rows=8 )
+        parameter( num_proc_cols=4, num_proc_rows=4 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='25 Feb 2012')
+        parameter (compiletime='27 Feb 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
@@ -32,8 +32,8 @@ c number of nodes for which this version is compiled
         parameter (cs3='-L/usr/local/lib -lmpi')
         character*20 cs4
         parameter (cs4='-I/usr/local/include')
-        character*19 cs5
-        parameter (cs5='-O  -mcmodel=medium')
+        character*18 cs5
+        parameter (cs5='-O  -mcmodel=large')
         character*2 cs6
         parameter (cs6='-O')
         character*6 cs7
