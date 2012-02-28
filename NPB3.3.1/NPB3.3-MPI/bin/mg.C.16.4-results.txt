@@ -5,11 +5,9 @@
  No input file. Using compiled defaults 
  Size:  512x 512x 512  (class C)
  Iterations:   20
- Number of processes:      4
+ Number of processes:     16
 
- Initialization time:         220.118 seconds
+ Initialization time:          42.504 seconds
 
   iter    1
-  iter    5
-  iter   10
-  iter   15
+16 total processes killed (some possibly by mpirun during cleanup)

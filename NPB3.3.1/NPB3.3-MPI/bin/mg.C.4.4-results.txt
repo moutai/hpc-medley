@@ -6,10 +6,4 @@
  Size:  512x 512x 512  (class C)
  Iterations:   20
  Number of processes:      4
-
- Initialization time:         220.118 seconds
-
-  iter    1
-  iter    5
-  iter   10
-  iter   15
+2 total processes killed (some possibly by mpirun during cleanup)
