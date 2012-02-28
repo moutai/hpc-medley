@@ -7,9 +7,6 @@
  Iterations:   20
  Number of processes:      4
 
- Initialization time:         220.118 seconds
+ Initialization time:         175.489 seconds
 
   iter    1
-  iter    5
-  iter   10
-  iter   15
