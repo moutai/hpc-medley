@@ -5,7 +5,7 @@
    It sets the number of processors and the class of the NPB
    in this directory. Do not modify it by hand.   */
    
-#define COMPILETIME "27 Feb 2012"
+#define COMPILETIME "28 Feb 2012"
 #define NPBVERSION "3.3.1"
 #define MPICC "mpicc"
 #define CFLAGS "-O"

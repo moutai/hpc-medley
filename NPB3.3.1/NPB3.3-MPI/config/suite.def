@@ -1,4 +1,3 @@
-
 # config/suite.def
 # This file is used to build several benchmarks with a single command. 
 # Typing "make suite" in the main directory will build all the benchmarks
@@ -15,55 +14,30 @@
 # No blank lines. 
 # The following example builds 1 processor sample sizes of all benchmarks. 
 
-#lu	A	16
-#lu	A	32
-#lu	A	64
-#lu	A	100
-
-
-#lu      B       16
-#lu      B       32
-#lu      B       64
-#lu	B	100
-
-
 cg      C       4
 cg      C       8
 cg      C       16
-
 is      C       4
 is      C       8
 is      C       16
-
 ep      C       4
 ep      C       8
 ep      C       16
-
 mg      C       4
 mg      C       8
 mg      C       16
-
 ft      C       4
 ft      C       8
 ft      C       16
-
-
-
-
-
-
-
-
-
-#lu      D       16
-#lu      D       32
-#lu      D       64
-#lu      D       100
-#
-#lu      E       16
-#lu      E       32
-##lu      E       64
-#lu      E       100
+sp      C       9
+sp      C       16
+sp      C       25
+bt      C       9
+bt      C       16
+bt      C       25
+lu      C       9
+lu      C       16
+lu      C       25
 
 
 
