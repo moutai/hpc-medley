@@ -19,7 +19,7 @@ for currentbench in listbench.readlines():
 	#print benchname
 	#print benchsize
 	#print benchprocs
-	for npernode in range(1,3):
+	for npernode in range(1,5):
 		bin_name= str(benchname)+'.'+str(benchsize)+'.'+str(benchprocs)
 		resultfilename = bin_name+"."+str(npernode)+"-results.txt"
 		command2run= "mpirun -np "+ str(benchprocs)+" -npernode " +str(npernode)+" -hostfile computehosts.txt ./"+str(bin_name)+" | tee "+ resultfilename
