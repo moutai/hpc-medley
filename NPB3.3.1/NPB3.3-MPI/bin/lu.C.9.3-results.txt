@@ -1,0 +1,11 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:     9
+
+ Proc_grid for nprocs =     9:    3 x    3
+ Time step    1
+ Time step   20
