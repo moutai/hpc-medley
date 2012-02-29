@@ -1,12 +1,6 @@
-mg 	C	8
-mg 	C	16
-ft      C       16
-sp	C	9
-sp	C	16
-sp	C	25
-bt	C	9
-bt	C	16
-bt	C	25
-lu	C	9
-lu	C	16
-lu	C	25
+cg 	C	32
+is 	C	32
+ep	C	32
+mg	C	32
+ft	C	32
+

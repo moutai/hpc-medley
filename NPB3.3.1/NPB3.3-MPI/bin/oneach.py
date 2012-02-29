@@ -8,8 +8,8 @@ listhostsup=open('computehosts.txt','w')
 #hostnum=0
 numhosts=0
 
-for hostnum in range(0,30) :
-	if hostnum!= 5 and hostnum!=14 and hostnum!=22 and hostnum!=23 and hostnum!=2:
+for hostnum in range(0,32) :
+	if True:
 		print "On host clusternode"+str(hostnum)	
 		command2run = sys.argv[1]
 		p=subprocess.Popen("ssh clusternode"+str(hostnum)+" "+command2run, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)

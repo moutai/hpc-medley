@@ -1,4 +1,4 @@
-c NPROCS = 16 CLASS = C
+c NPROCS = 32 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -8,11 +8,11 @@ c
         character class
         parameter (class ='C')
         integer m, npm
-        parameter (m=32, npm=16)
+        parameter (m=32, npm=32)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='28 Feb 2012')
+        parameter (compiletime='29 Feb 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1

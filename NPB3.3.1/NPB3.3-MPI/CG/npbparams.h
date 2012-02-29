@@ -1,4 +1,4 @@
-c NPROCS = 16 CLASS = C
+c NPROCS = 32 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -15,13 +15,13 @@ c
 
 c number of nodes for which this version is compiled
         integer    nnodes_compiled
-        parameter( nnodes_compiled = 16)
+        parameter( nnodes_compiled = 32)
         integer    num_proc_cols, num_proc_rows
-        parameter( num_proc_cols=4, num_proc_rows=4 )
+        parameter( num_proc_cols=8, num_proc_rows=4 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='28 Feb 2012')
+        parameter (compiletime='29 Feb 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1

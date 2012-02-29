@@ -17,18 +17,25 @@
 cg      C       4
 cg      C       8
 cg      C       16
+cg 	C	32
 is      C       4
 is      C       8
 is      C       16
+is 	C	32
 ep      C       4
 ep      C       8
 ep      C       16
+ep	C	32
 mg      C       4
 mg      C       8
 mg      C       16
+mg	C	32
 ft      C       4
 ft      C       8
 ft      C       16
+ft	C	32
+
+
 sp      C       9
 sp      C       16
 sp      C       25

@@ -14,8 +14,10 @@ for bench in ['sp','bt','lu']:
 				break
 			for line in f.readlines():
 			    words = string.split(line) 
-			    #print words    
-			    if ( len(words)>0 and words[0] == 'Time'):
+			    print words    
+			    time1=0
+			    ops=0
+			    if ( len(words)>0 and words[0] == 'Time' and words[1]=='in'):
 			    	# print words[1]
 				#['Time', 'in', 'seconds', '=', '111.06']
 				#print words[4]
