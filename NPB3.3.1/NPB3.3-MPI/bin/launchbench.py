@@ -28,9 +28,9 @@ def runwith(hosts):
 				command2run= "mpirun -np "+ str(benchprocs)+" -npernode "\
 				+str(npernode)+" -hostfile computehosts.txt ./"+str(bin_name)+" | tee "+ resultfilename
 				print command2run
-				p=subprocess.Popen(command2run, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-				for outputline in p.stdout.readlines():
-       	        			print outputline        	
+				#p=subprocess.Popen(command2run, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+				#for outputline in p.stdout.readlines():
+       	        		#	print outputline        	
 		time.sleep(1)	
 	listbench.close()
 	#fresults.close()
@@ -41,7 +41,6 @@ def runwith(hosts):
 
 hosts=1
 while hosts<=33:
-
 	sethostsfile.sethosts(hosts)
 	runwith(hosts)	
 	hosts=hosts*2	
