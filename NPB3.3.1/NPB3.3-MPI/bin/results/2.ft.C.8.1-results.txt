@@ -1,0 +1,7 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Error: Compiled for     8 processors. 
+ Only     2 processors found 

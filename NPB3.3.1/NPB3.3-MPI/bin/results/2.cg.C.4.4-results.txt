@@ -4,7 +4,7 @@
 
  Size:     150000
  Iterations:    75
- Number of active processes:     2
+ Number of active processes:     4
  Number of nonzeroes per row:       15
  Eigenvalue shift: .110E+03
 
@@ -94,11 +94,11 @@
  Class           =                        C
  Size            =                   150000
  Iterations      =                       75
- Time in seconds =                   139.78
- Total processes =                        2
- Compiled procs  =                        2
- Mop/s total     =                  1025.51
- Mop/s/process   =                   512.76
+ Time in seconds =                    89.22
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  1606.73
+ Mop/s/process   =                   401.68
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
