@@ -1,4 +1,4 @@
-c NPROCS = 25 CLASS = C
+c NPROCS = 121 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -8,7 +8,7 @@ c
 
 c number of nodes for which this version is compiled
         integer nnodes_compiled, nnodes_xdim
-        parameter (nnodes_compiled=25, nnodes_xdim=5)
+        parameter (nnodes_compiled=121, nnodes_xdim=11)
 
 c full problem size
         integer isiz01, isiz02, isiz03
@@ -16,7 +16,7 @@ c full problem size
 
 c sub-domain array size
         integer isiz1, isiz2, isiz3
-        parameter (isiz1=33, isiz2=33, isiz3=isiz03)
+        parameter (isiz1=15, isiz2=15, isiz3=isiz03)
 
 c number of iterations and how often to print the norm
         integer itmax_default, inorm_default
@@ -26,7 +26,7 @@ c number of iterations and how often to print the norm
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='29 Feb 2012')
+        parameter (compiletime='01 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1

@@ -1,4 +1,4 @@
-c NPROCS = 32 CLASS = C
+c NPROCS = 128 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -8,14 +8,14 @@ c
         integer nx, ny, nz, maxdim, niter_default, ntdivnp, np_min
         parameter (nx=512, ny=512, nz=512, maxdim=512)
         parameter (niter_default=20)
-        parameter (np_min = 32)
+        parameter (np_min = 128)
         parameter (ntdivnp=((nx*ny)/np_min)*nz)
         double precision ntotal_f
         parameter (ntotal_f=1.d0*nx*ny*nz)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='29 Feb 2012')
+        parameter (compiletime='01 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1

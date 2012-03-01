@@ -1,4 +1,4 @@
-c NPROCS = 32 CLASS = C
+c NPROCS = 128 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -6,19 +6,19 @@ c  It sets the number of processors and the class of the NPB
 c  in this directory. Do not modify it by hand.
 c  
         integer nprocs_compiled
-        parameter (nprocs_compiled = 32)
+        parameter (nprocs_compiled = 128)
         integer nx_default, ny_default, nz_default
         parameter (nx_default=512, ny_default=512, nz_default=512)
         integer nit_default, lm, lt_default
-        parameter (nit_default=20, lm = 8, lt_default=9)
+        parameter (nit_default=20, lm = 7, lt_default=9)
         integer debug_default
         parameter (debug_default=0)
         integer ndim1, ndim2, ndim3
-        parameter (ndim1 = 8, ndim2 = 7, ndim3 = 7)
+        parameter (ndim1 = 7, ndim2 = 7, ndim3 = 6)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='29 Feb 2012')
+        parameter (compiletime='01 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
