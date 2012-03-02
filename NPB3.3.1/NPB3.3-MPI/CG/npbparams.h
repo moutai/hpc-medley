@@ -1,4 +1,4 @@
-c NPROCS = 128 CLASS = C
+c NPROCS = 128 CLASS = D
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -7,10 +7,10 @@ c  in this directory. Do not modify it by hand.
 c  
         integer            na, nonzer, niter
         double precision   shift, rcond
-        parameter(  na=150000,
-     >              nonzer=15,
-     >              niter=75,
-     >              shift=110.,
+        parameter(  na=1500000,
+     >              nonzer=21,
+     >              niter=100,
+     >              shift=500.,
      >              rcond=1.0d-1 )
 
 c number of nodes for which this version is compiled
@@ -21,7 +21,7 @@ c number of nodes for which this version is compiled
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='01 Mar 2012')
+        parameter (compiletime='02 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1

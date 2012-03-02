@@ -1,4 +1,4 @@
-c NPROCS = 128 CLASS = C
+c NPROCS = 128 CLASS = D
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -8,17 +8,17 @@ c
         integer nprocs_compiled
         parameter (nprocs_compiled = 128)
         integer nx_default, ny_default, nz_default
-        parameter (nx_default=512, ny_default=512, nz_default=512)
+        parameter (nx_default=1024, ny_default=1024, nz_default=1024)
         integer nit_default, lm, lt_default
-        parameter (nit_default=20, lm = 7, lt_default=9)
+        parameter (nit_default=50, lm = 8, lt_default=10)
         integer debug_default
         parameter (debug_default=0)
         integer ndim1, ndim2, ndim3
-        parameter (ndim1 = 7, ndim2 = 7, ndim3 = 6)
+        parameter (ndim1 = 8, ndim2 = 8, ndim3 = 7)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='01 Mar 2012')
+        parameter (compiletime='02 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
