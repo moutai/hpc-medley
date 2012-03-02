@@ -1,0 +1,72 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1051773539834E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.1783897671908E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1242290892342E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.4149261727131E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.2631805471794E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1140228426133E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1837659645572E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1473352219681E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1870247511320E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                   160.00
+ Total processes =                       64
+ Compiled procs  =                       64
+ Mop/s total     =                 12743.40
+ Mop/s/process   =                   199.12
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              01 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O  -mcmodel=large
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
