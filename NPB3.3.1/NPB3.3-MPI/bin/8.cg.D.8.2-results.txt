@@ -1,0 +1,9 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    1500000
+ Iterations:   100
+ Number of active processes:    16
+ Number of nonzeroes per row:       21
+ Eigenvalue shift: .500E+03
