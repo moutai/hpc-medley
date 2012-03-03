@@ -1,0 +1,70 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408
+ Iterations:  250    dt:   0.0000200
+ Number of active processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1368628403432E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.7170856221204E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.1444891327899E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8920670461478E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.7898395842538E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1296392760149E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1629734704670E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4273001035799E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3783671558141E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2623944420154E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                  2081.00
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 28032.58
+ Mop/s/process   =                  1752.04
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              02 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O  -mcmodel=large
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
