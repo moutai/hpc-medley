@@ -1,0 +1,637 @@
+
+
+ NAS Parallel Benchmarks (NPB3.1-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones: 16  x  16
+ Iterations: 200    dt:   0.000100
+ Number of active processes:   25
+
+ Use the default load factors with threads
+  proc    0  num_threads =   1  group =   0
+  proc    1  num_threads =   1  group =   0
+  proc    2  num_threads =   1  group =   0
+  proc    3  num_threads =   1  group =   0
+  proc    4  num_threads =   1  group =   0
+  proc    5  num_threads =   1  group =   0
+  proc    6  num_threads =   1  group =   0
+  proc    7  num_threads =   1  group =   0
+  proc    8  num_threads =   1  group =   0
+  proc    9  num_threads =   1  group =   0
+  proc   10  num_threads =   1  group =   0
+  proc   11  num_threads =   1  group =   0
+  proc   12  num_threads =   1  group =   0
+  proc   13  num_threads =   1  group =   0
+  proc   14  num_threads =   1  group =   0
+  proc   15  num_threads =   1  group =   0
+  proc   16  num_threads =   1  group =   0
+  proc   17  num_threads =   1  group =   0
+  proc   18  num_threads =   1  group =   0
+  proc   19  num_threads =   1  group =   0
+  proc   20  num_threads =   1  group =   0
+  proc   21  num_threads =   1  group =   0
+  proc   22  num_threads =   1  group =   0
+  proc   23  num_threads =   1  group =   0
+  proc   24  num_threads =   1  group =   0
+ Total number of threads:     25
+
+ Zone sizes:
+   1:     13 x    8 x   28
+   2:     14 x    8 x   28
+   3:     15 x    8 x   28
+   4:     18 x    8 x   28
+   5:     19 x    8 x   28
+   6:     21 x    8 x   28
+   7:     23 x    8 x   28
+   8:     26 x    8 x   28
+   9:     28 x    8 x   28
+  10:     31 x    8 x   28
+  11:     35 x    8 x   28
+  12:     38 x    8 x   28
+  13:     43 x    8 x   28
+  14:     47 x    8 x   28
+  15:     52 x    8 x   28
+  16:     57 x    8 x   28
+  17:     13 x   10 x   28
+  18:     14 x   10 x   28
+  19:     15 x   10 x   28
+  20:     18 x   10 x   28
+  21:     19 x   10 x   28
+  22:     21 x   10 x   28
+  23:     23 x   10 x   28
+  24:     26 x   10 x   28
+  25:     28 x   10 x   28
+  26:     31 x   10 x   28
+  27:     35 x   10 x   28
+  28:     38 x   10 x   28
+  29:     43 x   10 x   28
+  30:     47 x   10 x   28
+  31:     52 x   10 x   28
+  32:     57 x   10 x   28
+  33:     13 x   10 x   28
+  34:     14 x   10 x   28
+  35:     15 x   10 x   28
+  36:     18 x   10 x   28
+  37:     19 x   10 x   28
+  38:     21 x   10 x   28
+  39:     23 x   10 x   28
+  40:     26 x   10 x   28
+  41:     28 x   10 x   28
+  42:     31 x   10 x   28
+  43:     35 x   10 x   28
+  44:     38 x   10 x   28
+  45:     43 x   10 x   28
+  46:     47 x   10 x   28
+  47:     52 x   10 x   28
+  48:     57 x   10 x   28
+  49:     13 x   12 x   28
+  50:     14 x   12 x   28
+  51:     15 x   12 x   28
+  52:     18 x   12 x   28
+  53:     19 x   12 x   28
+  54:     21 x   12 x   28
+  55:     23 x   12 x   28
+  56:     26 x   12 x   28
+  57:     28 x   12 x   28
+  58:     31 x   12 x   28
+  59:     35 x   12 x   28
+  60:     38 x   12 x   28
+  61:     43 x   12 x   28
+  62:     47 x   12 x   28
+  63:     52 x   12 x   28
+  64:     57 x   12 x   28
+  65:     13 x   12 x   28
+  66:     14 x   12 x   28
+  67:     15 x   12 x   28
+  68:     18 x   12 x   28
+  69:     19 x   12 x   28
+  70:     21 x   12 x   28
+  71:     23 x   12 x   28
+  72:     26 x   12 x   28
+  73:     28 x   12 x   28
+  74:     31 x   12 x   28
+  75:     35 x   12 x   28
+  76:     38 x   12 x   28
+  77:     43 x   12 x   28
+  78:     47 x   12 x   28
+  79:     52 x   12 x   28
+  80:     57 x   12 x   28
+  81:     13 x   14 x   28
+  82:     14 x   14 x   28
+  83:     15 x   14 x   28
+  84:     18 x   14 x   28
+  85:     19 x   14 x   28
+  86:     21 x   14 x   28
+  87:     23 x   14 x   28
+  88:     26 x   14 x   28
+  89:     28 x   14 x   28
+  90:     31 x   14 x   28
+  91:     35 x   14 x   28
+  92:     38 x   14 x   28
+  93:     43 x   14 x   28
+  94:     47 x   14 x   28
+  95:     52 x   14 x   28
+  96:     57 x   14 x   28
+  97:     13 x   16 x   28
+  98:     14 x   16 x   28
+  99:     15 x   16 x   28
+ 100:     18 x   16 x   28
+ 101:     19 x   16 x   28
+ 102:     21 x   16 x   28
+ 103:     23 x   16 x   28
+ 104:     26 x   16 x   28
+ 105:     28 x   16 x   28
+ 106:     31 x   16 x   28
+ 107:     35 x   16 x   28
+ 108:     38 x   16 x   28
+ 109:     43 x   16 x   28
+ 110:     47 x   16 x   28
+ 111:     52 x   16 x   28
+ 112:     57 x   16 x   28
+ 113:     13 x   17 x   28
+ 114:     14 x   17 x   28
+ 115:     15 x   17 x   28
+ 116:     18 x   17 x   28
+ 117:     19 x   17 x   28
+ 118:     21 x   17 x   28
+ 119:     23 x   17 x   28
+ 120:     26 x   17 x   28
+ 121:     28 x   17 x   28
+ 122:     31 x   17 x   28
+ 123:     35 x   17 x   28
+ 124:     38 x   17 x   28
+ 125:     43 x   17 x   28
+ 126:     47 x   17 x   28
+ 127:     52 x   17 x   28
+ 128:     57 x   17 x   28
+ 129:     13 x   19 x   28
+ 130:     14 x   19 x   28
+ 131:     15 x   19 x   28
+ 132:     18 x   19 x   28
+ 133:     19 x   19 x   28
+ 134:     21 x   19 x   28
+ 135:     23 x   19 x   28
+ 136:     26 x   19 x   28
+ 137:     28 x   19 x   28
+ 138:     31 x   19 x   28
+ 139:     35 x   19 x   28
+ 140:     38 x   19 x   28
+ 141:     43 x   19 x   28
+ 142:     47 x   19 x   28
+ 143:     52 x   19 x   28
+ 144:     57 x   19 x   28
+ 145:     13 x   21 x   28
+ 146:     14 x   21 x   28
+ 147:     15 x   21 x   28
+ 148:     18 x   21 x   28
+ 149:     19 x   21 x   28
+ 150:     21 x   21 x   28
+ 151:     23 x   21 x   28
+ 152:     26 x   21 x   28
+ 153:     28 x   21 x   28
+ 154:     31 x   21 x   28
+ 155:     35 x   21 x   28
+ 156:     38 x   21 x   28
+ 157:     43 x   21 x   28
+ 158:     47 x   21 x   28
+ 159:     52 x   21 x   28
+ 160:     57 x   21 x   28
+ 161:     13 x   23 x   28
+ 162:     14 x   23 x   28
+ 163:     15 x   23 x   28
+ 164:     18 x   23 x   28
+ 165:     19 x   23 x   28
+ 166:     21 x   23 x   28
+ 167:     23 x   23 x   28
+ 168:     26 x   23 x   28
+ 169:     28 x   23 x   28
+ 170:     31 x   23 x   28
+ 171:     35 x   23 x   28
+ 172:     38 x   23 x   28
+ 173:     43 x   23 x   28
+ 174:     47 x   23 x   28
+ 175:     52 x   23 x   28
+ 176:     57 x   23 x   28
+ 177:     13 x   26 x   28
+ 178:     14 x   26 x   28
+ 179:     15 x   26 x   28
+ 180:     18 x   26 x   28
+ 181:     19 x   26 x   28
+ 182:     21 x   26 x   28
+ 183:     23 x   26 x   28
+ 184:     26 x   26 x   28
+ 185:     28 x   26 x   28
+ 186:     31 x   26 x   28
+ 187:     35 x   26 x   28
+ 188:     38 x   26 x   28
+ 189:     43 x   26 x   28
+ 190:     47 x   26 x   28
+ 191:     52 x   26 x   28
+ 192:     57 x   26 x   28
+ 193:     13 x   28 x   28
+ 194:     14 x   28 x   28
+ 195:     15 x   28 x   28
+ 196:     18 x   28 x   28
+ 197:     19 x   28 x   28
+ 198:     21 x   28 x   28
+ 199:     23 x   28 x   28
+ 200:     26 x   28 x   28
+ 201:     28 x   28 x   28
+ 202:     31 x   28 x   28
+ 203:     35 x   28 x   28
+ 204:     38 x   28 x   28
+ 205:     43 x   28 x   28
+ 206:     47 x   28 x   28
+ 207:     52 x   28 x   28
+ 208:     57 x   28 x   28
+ 209:     13 x   31 x   28
+ 210:     14 x   31 x   28
+ 211:     15 x   31 x   28
+ 212:     18 x   31 x   28
+ 213:     19 x   31 x   28
+ 214:     21 x   31 x   28
+ 215:     23 x   31 x   28
+ 216:     26 x   31 x   28
+ 217:     28 x   31 x   28
+ 218:     31 x   31 x   28
+ 219:     35 x   31 x   28
+ 220:     38 x   31 x   28
+ 221:     43 x   31 x   28
+ 222:     47 x   31 x   28
+ 223:     52 x   31 x   28
+ 224:     57 x   31 x   28
+ 225:     13 x   35 x   28
+ 226:     14 x   35 x   28
+ 227:     15 x   35 x   28
+ 228:     18 x   35 x   28
+ 229:     19 x   35 x   28
+ 230:     21 x   35 x   28
+ 231:     23 x   35 x   28
+ 232:     26 x   35 x   28
+ 233:     28 x   35 x   28
+ 234:     31 x   35 x   28
+ 235:     35 x   35 x   28
+ 236:     38 x   35 x   28
+ 237:     43 x   35 x   28
+ 238:     47 x   35 x   28
+ 239:     52 x   35 x   28
+ 240:     57 x   35 x   28
+ 241:     13 x   38 x   28
+ 242:     14 x   38 x   28
+ 243:     15 x   38 x   28
+ 244:     18 x   38 x   28
+ 245:     19 x   38 x   28
+ 246:     21 x   38 x   28
+ 247:     23 x   38 x   28
+ 248:     26 x   38 x   28
+ 249:     28 x   38 x   28
+ 250:     31 x   38 x   28
+ 251:     35 x   38 x   28
+ 252:     38 x   38 x   28
+ 253:     43 x   38 x   28
+ 254:     47 x   38 x   28
+ 255:     52 x   38 x   28
+ 256:     57 x   38 x   28
+ Zone-process mapping:
+ proc nzones zone_size nthreads size_per_thread
+   0     10     173824      1       173824
+   zone    2      3136
+   zone   27      9800
+   zone   41      7840
+   zone   66      4704
+   zone  142     25004
+   zone  210     12152
+   zone  213     16492
+   zone  241     13832
+   zone  245     20216
+   zone  256     60648
+   1     10     172284      1       172284
+   zone   35      4200
+   zone  100      8064
+   zone  113      6188
+   zone  133     10108
+   zone  138     16492
+   zone  140     20216
+   zone  157     25284
+   zone  195     11760
+   zone  196     14112
+   zone  240     55860
+   2     10     172172      1       172172
+   zone    4      4032
+   zone   90     12152
+   zone   98      6272
+   zone  106     13888
+   zone  118      9996
+   zone  123     16660
+   zone  131      7980
+   zone  200     20384
+   zone  232     25480
+   zone  255     55328
+   3     11     174412      1       174412
+   zone   34      3920
+   zone   45     12040
+   zone   61     14448
+   zone   65      4368
+   zone   88     10192
+   zone  145      7644
+   zone  146      8232
+   zone  183     16744
+   zone  185     20384
+   zone  187     25480
+   zone  239     50960
+   4     11     174244      1       174244
+   zone   19      4200
+   zone   25      7840
+   zone   33      3640
+   zone   77     14448
+   zone   93     16856
+   zone  112     25536
+   zone  125     20468
+   zone  135     12236
+   zone  147      8820
+   zone  178     10192
+   zone  254     50008
+   5     10     171024      1       171024
+   zone   10      6944
+   zone   15     11648
+   zone   26      8680
+   zone   31     14560
+   zone   82      5488
+   zone   95     20384
+   zone  168     16744
+   zone  193     10192
+   zone  218     26908
+   zone  224     49476
+   6     10     170912      1       170912
+   zone   40      7280
+   zone   47     14560
+   zone   60     12768
+   zone   63     17472
+   zone   67      5040
+   zone   72      8736
+   zone  128     27132
+   zone  155     20580
+   zone  209     11284
+   zone  238     46060
+   7     10     170772      1       170772
+   zone   20      5040
+   zone   79     17472
+   zone   87      9016
+   zone  115      7140
+   zone  134     11172
+   zone  150     12348
+   zone  167     14812
+   zone  230     20580
+   zone  233     27440
+   zone  253     45752
+   8     11     174468      1       174468
+   zone    5      4256
+   zone   18      3920
+   zone   71      7728
+   zone  104     11648
+   zone  110     21056
+   zone  116      8568
+   zone  120     12376
+   zone  203     27440
+   zone  223     45136
+   zone  227     14700
+   zone  228     17640
+   9     10     170716      1       170716
+   zone   42      8680
+   zone   50      4704
+   zone  108     17024
+   zone  122     14756
+   zone  130      7448
+   zone  158     27636
+   zone  164     11592
+   zone  165     12236
+   zone  201     21952
+   zone  208     44688
+  10     10     171332      1       171332
+   zone   23      6440
+   zone   97      5824
+   zone  132      9576
+   zone  148     10584
+   zone  156     22344
+   zone  169     18032
+   zone  181     13832
+   zone  197     14896
+   zone  237     42140
+   zone  248     27664
+  11     11     173600      1       173600
+   zone    1      2912
+   zone   14     10528
+   zone   30     13160
+   zone   78     15792
+   zone   81      5096
+   zone   96     22344
+   zone  129      6916
+   zone  154     18228
+   zone  177      9464
+   zone  188     27664
+   zone  192     41496
+  12     11     174244      1       174244
+   zone   17      3640
+   zone   48     15960
+   zone   49      4368
+   zone   55      7728
+   zone   56      8736
+   zone  139     18620
+   zone  143     27664
+   zone  149     11172
+   zone  211     13020
+   zone  222     40796
+   zone  231     22540
+  13     10     170968      1       170968
+   zone   29     12040
+   zone   36      5040
+   zone   85      7448
+   zone   86      8232
+   zone  121     13328
+   zone  126     22372
+   zone  137     14896
+   zone  173     27692
+   zone  207     40768
+   zone  244     19152
+  14     11     174020      1       174020
+   zone    3      3360
+   zone    6      4704
+   zone   11      7840
+   zone   12      8512
+   zone   46     13160
+   zone  119     10948
+   zone  199     18032
+   zone  242     14896
+   zone  246     22344
+   zone  249     29792
+   zone  252     40432
+  15     10     171528      1       171528
+   zone   13      9632
+   zone   52      6048
+   zone   53      6384
+   zone   89     10976
+   zone  105     12544
+   zone  109     19264
+   zone  191     37856
+   zone  198     16464
+   zone  204     29792
+   zone  216     22568
+  16     10     170828      1       170828
+   zone    7      5152
+   zone   16     12768
+   zone   32     15960
+   zone   54      7056
+   zone   59     11760
+   zone   80     19152
+   zone  101      8512
+   zone  141     22876
+   zone  174     30268
+   zone  221     37324
+  17     10     171500      1       171500
+   zone   28     10640
+   zone   68      6048
+   zone   69      6384
+   zone   91     13720
+   zone   92     14896
+   zone  163      9660
+   zone  186     22568
+   zone  215     19964
+   zone  234     30380
+   zone  236     37240
+  18     10     171360      1       171360
+   zone   73      9408
+   zone   74     10416
+   zone   83      5880
+   zone  107     15680
+   zone  111     23296
+   zone  114      6664
+   zone  144     30324
+   zone  151     13524
+   zone  184     18928
+   zone  251     37240
+  19     10     171360      1       171360
+   zone   22      5880
+   zone   57      9408
+   zone   58     10416
+   zone   99      6720
+   zone  124     18088
+   zone  136     13832
+   zone  152     15288
+   zone  159     30576
+   zone  206     36848
+   zone  217     24304
+  20     10     170884      1       170884
+   zone   24      7280
+   zone   51      5040
+   zone   64     19152
+   zone   75     11760
+   zone   76     12768
+   zone  161      8372
+   zone  171     22540
+   zone  176     36708
+   zone  189     31304
+   zone  243     15960
+  21     10     170968      1       170968
+   zone   21      5320
+   zone   70      7056
+   zone  127     24752
+   zone  153     16464
+   zone  162      9016
+   zone  170     19964
+   zone  194     10976
+   zone  219     30380
+   zone  225     12740
+   zone  235     34300
+  22     10     170968      1       170968
+   zone   37      5320
+   zone   62     15792
+   zone   84      7056
+   zone  117      9044
+   zone  179     10920
+   zone  180     13104
+   zone  190     34216
+   zone  202     24304
+   zone  214     18228
+   zone  250     32984
+  23     10     171164      1       171164
+   zone   38      5880
+   zone   39      6440
+   zone  102      9408
+   zone  103     10304
+   zone  172     24472
+   zone  205     33712
+   zone  212     15624
+   zone  220     32984
+   zone  226     13720
+   zone  229     18620
+  24     10     171248      1       171248
+   zone    8      5824
+   zone    9      6272
+   zone   43      9800
+   zone   44     10640
+   zone   94     18424
+   zone  160     33516
+   zone  166     13524
+   zone  175     33488
+   zone  182     15288
+   zone  247     24472
+
+ Calculated speedup =    24.65
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.3457703287806E+07 0.3457703287806E+07 0.1089509278487E-12
+           2 0.3213621375929E+06 0.3213621375929E+06 0.1320422658492E-12
+           3 0.7002579656870E+06 0.7002579656870E+06 0.1512841667693E-13
+           4 0.4517459627471E+06 0.4517459627471E+06 0.2241997457454E-13
+           5 0.2818715870791E+07 0.2818715870791E+07 0.1321626751055E-14
+ Comparison of RMS-norms of solution error
+           1 0.2059106993570E+06 0.2059106993570E+06 0.1542041240569E-12
+           2 0.1680761129461E+05 0.1680761129461E+05 0.2136344671269E-12
+           3 0.4080731640795E+05 0.4080731640795E+05 0.3102425585186E-13
+           4 0.2836541076778E+05 0.2836541076778E+05 0.1023467317934E-12
+           5 0.2136807610771E+06 0.2136807610771E+06 0.2334508972703E-12
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        C
+ Size            =             480x 320x 28
+ Iterations      =                      200
+ Time in seconds =                    67.70
+ Total processes =                       25
+ Total threads   =                       25
+ Mop/s total     =                 35850.70
+ Mop/s/thread    =                  1434.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.1
+ Compile date    =              04 Mar 2012
+
+ Compile options:
+    F77          = mpif77
+    FLINK        = $(F77)
+    F_LIB        = -L/usr/local/lib -lmpi 
+    F_INC        = -I/usr/local/include
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
