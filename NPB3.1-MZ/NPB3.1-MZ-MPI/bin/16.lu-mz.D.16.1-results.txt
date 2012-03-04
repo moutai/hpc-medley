@@ -1,0 +1,147 @@
+
+
+ NAS Parallel Benchmarks (NPB3.1-MZ-MPI) - LU-MZ MPI+OpenMP Benchmark
+
+ Number of zones:  4  x   4
+ Iterations: 300    dt:   1.000000
+ Number of active processes:   16
+
+ Use the default load factors with threads
+  proc    0  num_threads =   1  group =   0
+  proc    1  num_threads =   1  group =   0
+  proc    2  num_threads =   1  group =   0
+  proc    3  num_threads =   1  group =   0
+  proc    4  num_threads =   1  group =   0
+  proc    5  num_threads =   1  group =   0
+  proc    6  num_threads =   1  group =   0
+  proc    7  num_threads =   1  group =   0
+  proc    8  num_threads =   1  group =   0
+  proc    9  num_threads =   1  group =   0
+  proc   10  num_threads =   1  group =   0
+  proc   11  num_threads =   1  group =   0
+  proc   12  num_threads =   1  group =   0
+  proc   13  num_threads =   1  group =   0
+  proc   14  num_threads =   1  group =   0
+  proc   15  num_threads =   1  group =   0
+ Total number of threads:     16
+
+ Zone sizes:
+   1:    408 x  304 x   34
+   2:    408 x  304 x   34
+   3:    408 x  304 x   34
+   4:    408 x  304 x   34
+   5:    408 x  304 x   34
+   6:    408 x  304 x   34
+   7:    408 x  304 x   34
+   8:    408 x  304 x   34
+   9:    408 x  304 x   34
+  10:    408 x  304 x   34
+  11:    408 x  304 x   34
+  12:    408 x  304 x   34
+  13:    408 x  304 x   34
+  14:    408 x  304 x   34
+  15:    408 x  304 x   34
+  16:    408 x  304 x   34
+ Zone-process mapping:
+ proc nzones zone_size nthreads size_per_thread
+   0      1    4217088      1      4217088
+   zone    1   4217088
+   1      1    4217088      1      4217088
+   zone    2   4217088
+   2      1    4217088      1      4217088
+   zone    3   4217088
+   3      1    4217088      1      4217088
+   zone    4   4217088
+   4      1    4217088      1      4217088
+   zone    5   4217088
+   5      1    4217088      1      4217088
+   zone    6   4217088
+   6      1    4217088      1      4217088
+   zone    7   4217088
+   7      1    4217088      1      4217088
+   zone    8   4217088
+   8      1    4217088      1      4217088
+   zone    9   4217088
+   9      1    4217088      1      4217088
+   zone   10   4217088
+  10      1    4217088      1      4217088
+   zone   11   4217088
+  11      1    4217088      1      4217088
+   zone   12   4217088
+  12      1    4217088      1      4217088
+   zone   13   4217088
+  13      1    4217088      1      4217088
+   zone   14   4217088
+  14      1    4217088      1      4217088
+   zone   15   4217088
+  15      1    4217088      1      4217088
+   zone   16   4217088
+
+ Calculated speedup =    16.00
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.3282253166388E+06 0.3282253166388E+06 0.9931071266941E-14
+           2   0.3490781637713E+05 0.3490781637713E+05 0.1046336064926E-12
+           3   0.8610311978292E+05 0.8610311978292E+05 0.9802328712051E-14
+           4   0.7004896022604E+05 0.7004896022603E+05 0.7997959348495E-13
+           5   0.4546838584391E+06 0.4546838584391E+06 0.6682533024405E-13
+ Comparison of RMS-norms of solution error
+           1   0.6620775619127E+04 0.6620775619126E+04 0.7761394375264E-13
+           2   0.5229798207352E+03 0.5229798207352E+03 0.1369511880285E-13
+           3   0.1620218261697E+04 0.1620218261697E+04 0.5136268808936E-13
+           4   0.1404783445006E+04 0.1404783445006E+04 0.1557061884193E-12
+           5   0.1222629805121E+05 0.1222629805121E+05 0.2154287949878E-12
+ Comparison of surface integral
+               0.2059421629621E+05 0.2059421629621E+05 0.8832525488628E-15
+ Verification Successful
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =            1632x1216x 34
+ Iterations      =                      300
+ Time in seconds =                  1209.61
+ Total processes =                       16
+ Total threads   =                       16
+ Mop/s total     =                 31098.69
+ Mop/s/thread    =                  1943.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.1
+ Compile date    =              04 Mar 2012
+
+ Compile options:
+    F77          = mpif77
+    FLINK        = $(F77)
+    F_LIB        = -L/usr/local/lib -lmpi 
+    F_INC        = -I/usr/local/include
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

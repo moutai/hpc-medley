@@ -17,11 +17,11 @@
 
 python sethostsfile.py 4;
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./sp-mz.C.4 | tee 4.sp-mz.C.4.1-results.txt ;
+mpirun -hostfile computehosts.txt ./sp-mz.D.4 | tee 4.sp-mz.D.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./sp-mz.C.4 | tee 4.sp-mz.C.4.2-results.txt ;
+mpirun -hostfile computehosts.txt ./sp-mz.D.4 | tee 4.sp-mz.D.4.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./sp-mz.C.4 | tee 4.sp-mz.C.4.4-results.txt ;
+mpirun -hostfile computehosts.txt ./sp-mz.D.4 | tee 4.sp-mz.D.4.4-results.txt ;
 #
 ####
 
@@ -46,11 +46,11 @@ mpirun -hostfile computehosts.txt ./sp-mz.C.4 | tee 4.sp-mz.C.4.4-results.txt ;
 
 python sethostsfile.py 4;
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./bt-mz.C.4 | tee 4.bt-mz.C.4.1-results.txt ;
+mpirun -hostfile computehosts.txt ./bt-mz.D.4 | tee 4.bt-mz.D.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./bt-mz.C.4 | tee 4.bt-mz.C.4.2-results.txt ;
+mpirun -hostfile computehosts.txt ./bt-mz.D.4 | tee 4.bt-mz.D.4.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./bt-mz.C.4 | tee 4.bt-mz.C.4.4-results.txt ;
+mpirun -hostfile computehosts.txt ./bt-mz.D.4 | tee 4.bt-mz.D.4.4-results.txt ;
 
 
 
@@ -78,10 +78,10 @@ mpirun -hostfile computehosts.txt ./bt-mz.C.4 | tee 4.bt-mz.C.4.4-results.txt ;
 
 python sethostsfile.py 4;
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./lu-mz.C.4 | tee 4.lu-mz.C.4.1-results.txt ;
+mpirun -hostfile computehosts.txt ./lu-mz.D.4 | tee 4.lu-mz.D.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./lu-mz.C.4 | tee 4.lu-mz.C.4.2-results.txt ;
+mpirun -hostfile computehosts.txt ./lu-mz.D.4 | tee 4.lu-mz.D.4.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./lu-mz.C.4 | tee 4.lu-mz.C.4.4-results.txt ;
+mpirun -hostfile computehosts.txt ./lu-mz.D.4 | tee 4.lu-mz.D.4.4-results.txt ;
 
 
