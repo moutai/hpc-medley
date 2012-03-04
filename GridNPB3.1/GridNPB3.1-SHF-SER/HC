@@ -1,0 +1,107 @@
+#! /bin/ksh
+NAME=HC
+EXES=\{lu,sp,bt,mf\}
+
+. ./common/PARSE.sh
+
+if [ $RAPIDFIRE -eq 0 ]; then
+  case $NGBCLASS in 
+    S )   DEPTH=9 
+          BTXSIZE=12;  BTYSIZE=12;  BTZSIZE=12
+          SPXSIZE=12;  SPYSIZE=12;  SPZSIZE=12
+          LUXSIZE=12;  LUYSIZE=12;  LUZSIZE=12
+          ;;
+    W )   DEPTH=9 
+          BTXSIZE=24;  BTYSIZE=24;  BTZSIZE=24
+          SPXSIZE=36;  SPYSIZE=36;  SPZSIZE=36
+          LUXSIZE=33;  LUYSIZE=33;  LUZSIZE=33
+          ;;
+    A )   DEPTH=9    
+          BTXSIZE=64;  BTYSIZE=64;  BTZSIZE=64
+          SPXSIZE=64;  SPYSIZE=64;  SPZSIZE=64
+          LUXSIZE=64;  LUYSIZE=64;  LUZSIZE=64
+          ;;
+    B )   DEPTH=18   
+          BTXSIZE=102; BTYSIZE=102; BTZSIZE=102
+          SPXSIZE=102; SPYSIZE=102; SPZSIZE=102
+          LUXSIZE=102; LUYSIZE=102; LUZSIZE=102
+          ;;
+    C )   DEPTH=27   
+          BTXSIZE=162; BTYSIZE=162; BTZSIZE=162
+          SPXSIZE=162; SPYSIZE=162; SPZSIZE=162
+          LUXSIZE=162; LUYSIZE=162; LUZSIZE=162
+          ;;
+  esac
+else
+  BTXSIZE=12;  BTYSIZE=12;  BTZSIZE=12
+  SPXSIZE=12;  SPYSIZE=12;  SPZSIZE=12
+  LUXSIZE=12;  LUYSIZE=12;  LUZSIZE=12
+  
+  case $NGBCLASS in 
+    S )   DEPTH=9     ;;
+    W )   DEPTH=1002  ;;
+    A )   DEPTH=5001  ;;   
+    B )   DEPTH=21000 ;;
+    C )   DEPTH=87000 ;;
+  esac
+fi
+  
+  
+set -A CODEA       bt       sp       lu
+set -A OTXSIZE     $BTXSIZE $SPXSIZE $LUXSIZE 
+set -A OTYSIZE     $BTYSIZE $SPYSIZE $LUYSIZE 
+set -A OTZSIZE     $BTZSIZE $SPZSIZE $LUZSIZE 
+set -A INXSIZE     $LUXSIZE $BTXSIZE $SPXSIZE 
+set -A INYSIZE     $LUYSIZE $BTYSIZE $SPYSIZE 
+set -A INZSIZE     $LUZSIZE $BTZSIZE $SPZSIZE 
+
+WIDTH=1
+MAX_TASK=`expr $WIDTH \* $DEPTH`
+
+. ./common/DEPLOY.sh
+
+TASK=0
+    
+while [ $TASK -lt $MAX_TASK ]; do
+  TASKMOD3=`expr $TASK % 3`
+  CODE=${CODEA[$TASKMOD3]}
+  FILTER=0
+
+  if [ $TASK -gt 0 ]; then
+    NUM_INPUTS=1
+    # interpolate  solutions between meshes, if necessary
+    if [ ${INXSIZE[$TASKMOD3]} -ne ${OTXSIZE[$TASKMOD3]} ] || 
+       [ ${INYSIZE[$TASKMOD3]} -ne ${OTYSIZE[$TASKMOD3]} ] || 
+       [ ${INZSIZE[$TASKMOD3]} -ne ${OTZSIZE[$TASKMOD3]} ]; then 
+      echo Interpolate  $CODE solution onto ${CODEA[$TASKMOD3M]} mesh
+      FILTER=1
+    fi
+  else
+    NUM_INPUTS=0
+  fi
+
+  if [ $TASK -ne `expr $MAX_TASK - 1` ]; then
+    VERIFY=0
+  else
+    VERIFY=1
+  fi
+
+  MODE=v
+  OUTNAME_MF=$NAME.$TASK.$PID.IN
+  OUTNAME_NPB1=$NAME.$TASK.$PID
+  OUTXSIZE=${OTXSIZE[$TASKMOD3]}
+  OUTYSIZE=${OTYSIZE[$TASKMOD3]}
+  OUTZSIZE=${OTZSIZE[$TASKMOD3]}
+  INNAME_MF1=$NAME.`expr $TASK - 1`.$PID
+  INXSIZE1=${INXSIZE[$TASKMOD3]}
+  INYSIZE1=${INYSIZE[$TASKMOD3]}
+  INZSIZE1=${INZSIZE[$TASKMOD3]}
+  . ./common/NODE.sh
+
+  TASKMOD3M=$TASKMOD3
+  TASK=`expr $TASK + 1`
+done
+
+. ./common/VERIFY.sh
+
+

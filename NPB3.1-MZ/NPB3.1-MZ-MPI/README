@@ -1,0 +1,92 @@
+NPB3.1-MZ (Multi-Zone) MPI+OpenMP Versions
+-------------------------------------------
+
+For details, see
+   http://www.nas.nasa.gov/Research/Reports/Techreports/2003/
+   nas-03-010-abstract.html
+
+NPB Development Team
+   npb@nas.nasa.gov
+
+
+Compilation
+------------
+
+1. copy one of the 'make.def' examples in config/NAS.samples or the
+   file config/make.def.template to config/make.def
+
+2. modify/specify the compiler and compilation flags in config/make.def
+
+3. use the following line to compile
+   make benchmark CLASS=class NPROCS=number_of_procs
+
+   [benchmark] is one of [bt-mz, sp-mz, lu-mz]
+   [class] is one of [S, W, A, B, C, D]
+   [number_of_procs] is the number of MPI processes requested
+
+
+Runtime Environment Variables and Setups
+-----------------------------------------
+
+1. Specify the number of threads
+
+There are two ways to specify the number of threads:
+   - using a load data file for different benchmark
+      loadbt-mz.data, loadsp-mz.data, or loadlu-mz.data
+   - using environment variables.
+
+1.1 load data file
+
+A load data file defines the number of threads used for each process
+and has the following format:
+   <proc#>  <number_of_threads>  <proc_group>
+   <proc#>  <number_of_threads>  <proc_group>
+   ...
+
+<proc#> starts from 0, up to <number_of_procs>-1.  The <proc_group>
+column can be used to specify a processor group to which a process
+belongs.  This field is useful for running NPB-MZ across several
+SMP boxes, where each individual SMP box could be load-balanced
+with OpenMP threads up to the number of CPUs available in the box.
+The file will be read by the master process from the current working 
+directory.
+
+The load data file precedes the environment variables as described in
+Section 1.2, in particular, the load balancing with threads movement
+will not be applied if all values of <proc_group> are less than one.
+
+1.2 environment variables
+
+OMP_NUM_THREADS
+  - the number of threads per process.  If this variable is not specified,
+    one thread is assumed for each process.
+
+    The total number of threads is number_of_procs * num_threads.
+
+NPB_MZ_BLOAD
+  - flag for load balancing with threads.  By default, load balancing
+    with threads is on (with a value of 1, ON or TRUE).
+
+NPB_MAX_THREADS
+  - the maximum number of threads that can be used on each process for 
+    load balancing.  This value is checked only if NPB_MZ_BLOAD is enabled.
+    By default (with a value of 0), there is no limitation on the number
+    of threads.  If NPB_MAX_THREADS is specified, the value must be either
+    0 (for no limit) or no less than OMP_NUM_THREADS.
+
+2. Use the built-in profile timers
+
+Creating an empty "timer.flag" file in the working directory will allow
+you to collect some timing statistics of benchmarks.
+
+
+Known Problem
+--------------
+  - On SGI Origins using the Message Passing Toolkit (MPT) versions from 
+    1.4.0.3 to 1.7.0.0, the hybrid MPI+OpenMP version crashes due to the
+    use of the THREADPRIVATE directive in the codes.  As a workaround,
+    you can either use another MPT module (such as mpt.1.4.0.0) or set
+    the following environment variable:
+
+    "setenv MPI_STATIC_NO_MAP" (csh) or "export MPI_STATIC_NO_MAP" (sh)
+

@@ -1,0 +1,31 @@
+NPB3.1-MZ (Multi-Zone) Serial Versions
+---------------------------------------
+
+For details, see
+   http://www.nas.nasa.gov/Research/Reports/Techreports/2003/
+   nas-03-010-abstract.html
+
+NPB Development Team
+   npb@nas.nasa.gov
+
+
+Compilation
+------------
+
+1. copy one of the 'make.def' examples in config/NAS.samples or the
+   file config/make.def.template to config/make.def
+
+2. modify/specify the compiler and compilation flags in config/make.def
+
+3. use the following line to compile
+   make benchmark CLASS=class
+
+   [benchmark] is one of [bt-mz, sp-mz, lu-mz]
+   [class] is one of [S, W, A, B, C, D]
+
+
+Use the built-in profile timers
+--------------------------------
+
+Creating an empty "timer.flag" file in the working directory will allow
+you to collect some timing statistics of benchmarks.

@@ -1,0 +1,9 @@
+Version 3.1, March 26, 2004
+- Made string processing more Linux compliant
+- Printed ascii values with prescribed precision (used to be free format)
+- Fixed single precision verification value for LU, Class B
+
+April 14, 2004
+- Rewrote all scripts so that they use common code sections, stored
+  in subdirectory "common."
+

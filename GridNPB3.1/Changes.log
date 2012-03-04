@@ -1,0 +1,10 @@
+June 3, 2004
+- changed verification method for all benchmarks. Now only one
+  normalized checksum for each class of each benchmark is
+  computed and compared with a verification value.
+
+May 5, 2004
+- changed setparams.c for mg_info and mf_info to reflect different 
+  grid sizes and iterations for MG, Class W
+- changed VP and MB to reflect different grid sizes for MG, Class W
+

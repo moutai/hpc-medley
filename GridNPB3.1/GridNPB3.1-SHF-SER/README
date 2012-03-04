@@ -1,0 +1,73 @@
+#########################################
+# Grid NAS Parallel Benchmarks          #
+# F77                                   #
+# Revision 3.1-SHF-SER                  #
+# NASA Ames Research Center             #
+# npb@nas.nasa.gov                      #
+# http://www.nas.nasa.gov/Software/NPB/ #
+#########################################
+
+
+This README file explains how to build the Grid NAS Parallel Benchmark 
+suite.  Please read the technical report NAS-02-005 well. 
+
+NOTE: this reference implementation does not exploit concurrency.
+The NPB codes used are the serial versions, and the NGB graphs are
+executed serially as well. A single shared file system is assumed.
+
+1. Edit the site- and machine-specific data in config/make.def
+   Several sample versions are included in subdirectory NAS.samples
+   of the config directory so you may be able to copy one. A clean 
+   version is in config/make.def.template.
+
+2. Each benchmark comes in 4 sizes (classes), ranked in order of
+   increasing data set sizes and computational work involved: S, W, A, B.
+   Since Fortran 77 doesn't have dynamic memory allocation, the class 
+   must be specified at compile time.
+
+   To compile a given benchmark for a specific class, type:
+
+       make benchmark-name CLASS={S,W,A,B}
+
+   For instance, to create a class A version of the VP benchmark, type:
+
+         make VP CLASS=A
+
+   Note: the process-intensive "Rapid Fire" (parameter "-RF") variation 
+   of the grid benchmarks only use Class S executables. To build these
+   benchmarks, always select "CLASS=S", regardless of which class is
+   specified during execution.
+
+   All executables related to the benchmark that has been built are
+   placed in the subdirectory "bin" of the distribution (or in the directory 
+   BINDIR specified in make.def, if you have defined it). The whole
+   benchmark is executed using a Korn shell script, located in the root 
+   directory of the distribution (name is all UPPERCASE). It
+   takes the class of the whole benchmark as a parameter. Other parameters
+   are -v for verbose execution, -u for unformatted data files, and -RF
+   for the Rapid Fire variation of the benchmarks.
+   By default, the script runs with minimal information written to standard 
+   output, and using ASCII files for exchanging data between tasks. 
+   Example run:
+
+         VP A -u -v
+
+3. It is possible to make all benchmarks of a particular class at the
+   same time by typing: 
+
+         make all CLASS=<class>
+
+3a. When building a 
+
+4. It is also possible to build single executables of a particular class,
+   for example:
+
+         make BT CLASS=A
+
+5. If the benchmark completes it will automatically remove any temporary 
+   files that were created. However, if it crashes, no complete cleanup will 
+   be done, and the user should remove any newly created files, if desired. 
+   Leftover temporary files will not interfere with subsequent benchmark 
+   runs, but may clog the file system.
+
+

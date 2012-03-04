@@ -1,0 +1,76 @@
+#! /bin/ksh
+NAME=ED
+EXES="sp"
+
+. ./common/PARSE.sh
+
+if [ $RAPIDFIRE -eq 0 ]; then
+  case $NGBCLASS in 
+    S   )   WIDTH=9      ;;
+    W   )   WIDTH=9      ;;
+    A   )   WIDTH=9      ;;
+    B   )   WIDTH=18     ;;
+    C   )   WIDTH=36     ;;
+  esac
+else
+  case $NGBCLASS in 
+    S   )   WIDTH=9      ;;
+    W   )   WIDTH=600    ;;
+    A   )   WIDTH=2500   ;;
+    B   )   WIDTH=10000  ;;
+    C   )   WIDTH=40000  ;;
+  esac
+fi
+
+DEPTH=1
+MAX_TASK=`expr $WIDTH \* $DEPTH`
+    
+. ./common/DEPLOY.sh
+
+CODE=sp
+FILTER=0
+NUM_INPUTS=0
+NUM_OUTPUTS=0
+VERIFY=1
+
+TASK=0
+while [ $TASK -lt $MAX_TASK ]; do
+  NUMMOD=`expr $TASK % $NUMHOSTS`
+  HOST=`echo ${GRIDPOINT[$NUMMOD]} | awk 'BEGIN{ FS = ":" }{ print $1 }'`
+  DIR=`echo ${GRIDPOINT[$NUMMOD]}  | awk 'BEGIN{ FS = ":" }{ print $2 }'`
+  if [ "$DIR" = "" ]; then DIR="."; fi
+  LOG_FILE=____LOG_$NAME.$TASK.$PID
+  ERR=____ERR.$TASK.$PID
+  echo Task $TASK, code $CODE.$NPBCLASS, host $HOST -- ${VERIFY_STRING[$VERIFY]}
+
+  echo "&(executable=NODE.sh.$EXT)\
+  (directory=$DIR)\
+  (stdout=$NGBHOME/$LOG_FILE)\
+  (arguments=NODE)\
+  (environment=(CODE        '$CODE')\
+               (NPBCLASS    '$NPBCLASS')\
+               (NGBCLASS    '$NGBCLASS')\
+               (ASCII       '$ASCII')\
+               (FULLNAME    '$FULLNAME')\
+               (NAME        '$NAME')\
+               (TASK        '$TASK')\
+               (WIDTH       '$WIDTH')\
+               (DEPTH       '$DEPTH')\
+               (PID         '$PID')\
+               (VERBOSE     '$VERBOSE')\
+               (FILTER      '$FILTER')\
+               (NUM_INPUTS  '$NUMINPUTS')\
+               (NUM_OUTPUTS '$NUMOUTPUTS')\
+               (NGBHOME     '$NGBHOME')\
+               (EXT         '$EXT')\
+               (ADDPATH     '$ADDPATH')\
+               (ERR         '$ERR'))" > RSL_NODE.$TASK.$PID
+  eval 'JOBID[$TASK]=`globusrun -b -s -r $HOST$JOBMANAGER -f RSL_NODE.$TASK.$PID`' $OUT
+  JOBSTATUS[$TASK]=SUBMITTED
+  rm -f RSL_NODE.$TASK.$PID $OUT
+
+  TASK=`expr $TASK + 1`
+done
+
+. ./common/VERIFY.sh
+

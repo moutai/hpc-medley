@@ -1,0 +1,167 @@
+#! /bin/ksh
+NAME=MB
+
+. ./common/PARSE.sh
+
+if [ $RAPIDFIRE -eq 0 ]; then
+  case $NGBCLASS in 
+    S )   WIDTH=3;       DEPTH=3
+          SPXSIZE=12;    SPYSIZE=12;  SPZSIZE=12
+          BTXSIZE=12;    BTYSIZE=12;  BTZSIZE=12
+          LUXSIZE=12;    LUYSIZE=12;  LUZSIZE=12
+          MGXSIZE=32;    MGYSIZE=32;  MGZSIZE=32
+          FTXSIZE=64;    FTYSIZE=64;  FTZSIZE=64
+          EXES=\{lu,mg,ft,mf\}
+          ;;
+    W )   WIDTH=3;       DEPTH=3
+          SPXSIZE=33;    SPYSIZE=33;  SPZSIZE=33
+          LUXSIZE=33;    LUYSIZE=33;  LUZSIZE=33
+          BTXSIZE=24;    BTYSIZE=24;  BTZSIZE=24
+          MGXSIZE=128;   MGYSIZE=128; MGZSIZE=128
+          FTXSIZE=128;   FTYSIZE=128; FTZSIZE=32
+          EXES=\{lu,mg,ft,mf\}
+          ;;
+    A )   WIDTH=3;       DEPTH=3
+          SPXSIZE=64;    SPYSIZE=64;  SPZSIZE=64
+          BTXSIZE=64;    BTYSIZE=64;  BTZSIZE=64
+          LUXSIZE=64;    LUYSIZE=64;  LUZSIZE=64
+          MGXSIZE=256;   MGYSIZE=256; MGZSIZE=256
+          FTXSIZE=256;   FTYSIZE=256; FTZSIZE=128
+          EXES=\{lu,mg,ft,mf\}
+          ;;
+    B )   WIDTH=4;       DEPTH=4
+          SPXSIZE=102;   SPYSIZE=102; SPZSIZE=102
+          BTXSIZE=102;   BTYSIZE=102; BTZSIZE=102
+          LUXSIZE=102;   LUYSIZE=102; LUZSIZE=102
+          MGXSIZE=256;   MGYSIZE=256; MGZSIZE=256
+          FTXSIZE=512;   FTYSIZE=256; FTZSIZE=256
+          EXES=\{bt,lu,mg,ft,mf\}
+          ;;
+    C )   WIDTH=5;       DEPTH=5
+          SPXSIZE=162;   SPYSIZE=162; SPZSIZE=162
+          BTXSIZE=162;   BTYSIZE=162; BTZSIZE=162
+          LUXSIZE=162;   LUYSIZE=162; LUZSIZE=162
+          MGXSIZE=512;   MGYSIZE=512; MGZSIZE=512
+          FTXSIZE=512;   FTYSIZE=512; FTZSIZE=512
+          EXES=\{sp,bt,lu,mg,ft,mf\}
+          ;;
+  esac
+else
+  SPXSIZE=12;    SPYSIZE=12;  SPZSIZE=12
+  BTXSIZE=12;    BTYSIZE=12;  BTZSIZE=12
+  LUXSIZE=12;    LUYSIZE=12;  LUZSIZE=12
+  MGXSIZE=32;    MGYSIZE=32;  MGZSIZE=32
+  FTXSIZE=64;    FTYSIZE=64;  FTZSIZE=64
+  EXES=\{sp,bt,lu,mg,ft,mf\}
+
+  case $NGBCLASS in 
+    S )   WIDTH=3;     DEPTH=3
+          EXES=\{lu,mg,ft,mf\}     ;;
+    W )   WIDTH=26;      DEPTH=26  ;;
+    A )   WIDTH=50;      DEPTH=50  ;;
+    B )   WIDTH=98;      DEPTH=98  ;;
+    C )   WIDTH=194;     DEPTH=194 ;;
+  esac
+fi
+
+# set up variables that determine what gets run at the
+# different layers of the graph. We always define codes for all 
+# layers, and array types and sizes for communications between 
+# all layers. Only some of these will be used for the smaller 
+# problem sizes of the ALU intensive benchmarks. WIDTH contains 
+# the number of codes in the layer.
+    
+set -A CODEA        sp bt lu mg ft
+set -A ARRAYTYPE    v  v  v  s  s  
+set -A INXSIZE      $LUXSIZE $SPXSIZE $BTXSIZE $LUXSIZE $MGXSIZE 
+set -A INYSIZE      $LUYSIZE $SPYSIZE $BTYSIZE $LUYSIZE $MGYSIZE 
+set -A INZSIZE      $LUZSIZE $SPZSIZE $BTZSIZE $LUZSIZE $MGZSIZE 
+set -A OTXSIZE      $SPXSIZE $BTXSIZE $LUXSIZE $MGXSIZE $FTXSIZE 
+set -A OTYSIZE      $SPYSIZE $BTYSIZE $LUYSIZE $MGYSIZE $FTYSIZE 
+set -A OTZSIZE      $SPZSIZE $BTZSIZE $LUZSIZE $MGZSIZE $FTZSIZE 
+
+MAX_TASK=`expr $WIDTH \* $DEPTH`
+
+. ./common/DEPLOY.sh
+
+TASK=0
+    
+LAYER=0
+# outer loop is over the layers in the graph
+while [ $LAYER -lt $DEPTH ]; do
+
+  if [ $LAYER -lt `expr $DEPTH - 2` ]; then
+    MODLAYER=`expr \( $LAYER + 2 \* $DEPTH + 2 \) % 3`
+  else
+    MODLAYER=`expr $LAYER - $DEPTH + 5`
+  fi
+
+  CODE=${CODEA[$MODLAYER]}
+  MODE=${ARRAYTYPE[$MODLAYER]}
+
+  OUTXSIZE=${OTXSIZE[$MODLAYER]}
+  OUTYSIZE=${OTYSIZE[$MODLAYER]}
+  OUTZSIZE=${OTZSIZE[$MODLAYER]}
+  INXSIZE1=${INXSIZE[$MODLAYER]}
+  INYSIZE1=${INYSIZE[$MODLAYER]}
+  INZSIZE1=${INZSIZE[$MODLAYER]}
+  INXSIZE2=${INXSIZE[$MODLAYER]}
+  INYSIZE2=${INYSIZE[$MODLAYER]}
+  INZSIZE2=${INZSIZE[$MODLAYER]}
+  INXSIZE3=${INXSIZE[$MODLAYER]}
+  INYSIZE3=${INYSIZE[$MODLAYER]}
+  INZSIZE3=${INZSIZE[$MODLAYER]}
+
+  if [ $LAYER -eq `expr $DEPTH - 1` ]; then
+    VERIFY=1
+  else
+    VERIFY=0
+  fi
+
+# inner loop is over the nodes within a layer
+  SUB_TASK=0
+
+# keep track of the first task number in this layer
+  FIRST_TASK=$TASK
+
+  while [ $SUB_TASK -lt $WIDTH ];  do
+
+    TASKMW=`expr $TASK - $WIDTH`
+    TASKPW=`expr $TASK + $WIDTH`
+
+    INNAME_MF1=$NAME.$TASKMW.$PID
+    OUTNAME_MF=$NAME.$TASK.$PID.IN
+    OUTNAME_NPB1=$NAME.$TASK.$PID
+    OUTNAME_NPB2=$NAME.$TASK.$PID
+
+    if [  $LAYER -eq 0 ]; then
+      NUM_INPUTS=0
+      FILTER=0
+    else
+      case $SUB_TASK in
+        1 )                 NUM_INPUTS=3 
+                            INNAME_MF2=$NAME.`expr $TASKMW - 1`.$PID
+                            INNAME_MF3=$NAME.`expr $TASKMW + 1`.$PID
+                            ;;
+        `expr $WIDTH - 1` ) NUM_INPUTS=1 
+                            ;;
+        * )                 NUM_INPUTS=2 
+                            INNAME_MF2=$NAME.`expr $TASKMW + 1`.$PID
+                            ;;
+      esac
+      FILTER=1
+    fi
+
+#echo Task $TASK, Code $CODE 
+    . ./common/NODE.sh
+
+    SUB_TASK=`expr $SUB_TASK + 1`
+    TASK=`expr $TASK + 1`
+
+  done
+
+  LAYER=`expr $LAYER + 1`
+
+done
+
+. ./common/VERIFY.sh

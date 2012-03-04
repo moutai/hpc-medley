@@ -1,0 +1,118 @@
+#! /bin/ksh
+NAME=VP
+EXES=\{bt,mg,ft,mf\}
+
+. ./common/PARSE.sh
+
+if [ $RAPIDFIRE -eq 0 ]; then
+  case $NGBCLASS in 
+    S )   DEPTH=3
+          BTXSIZE=12;  BTYSIZE=12;  BTZSIZE=12
+          MGXSIZE=32;  MGYSIZE=32;  MGZSIZE=32
+          FTXSIZE=64;  FTYSIZE=64;  FTZSIZE=64
+          ;;
+    W )   DEPTH=3
+          BTXSIZE=24;  BTYSIZE=24;  BTZSIZE=24
+          MGXSIZE=128; MGYSIZE=128; MGZSIZE=128
+          FTXSIZE=128; FTYSIZE=128; FTZSIZE=32
+          ;;
+    A )   DEPTH=3
+          BTXSIZE=64;  BTYSIZE=64;  BTZSIZE=64
+          MGXSIZE=256; MGYSIZE=256; MGZSIZE=256
+          FTXSIZE=256; FTYSIZE=256; FTZSIZE=128
+          ;;
+    B )   DEPTH=6
+          BTXSIZE=102; BTYSIZE=102; BTZSIZE=102
+          MGXSIZE=256; MGYSIZE=256; MGZSIZE=256
+          FTXSIZE=512; FTYSIZE=256; FTZSIZE=256
+          ;;
+    C )   DEPTH=9
+          BTXSIZE=162; BTYSIZE=162; BTZSIZE=162
+          MGXSIZE=512; MGYSIZE=512; MGZSIZE=512
+          FTXSIZE=512; FTYSIZE=512; FTZSIZE=512
+          ;;
+  esac
+else
+  BTXSIZE=12;  BTYSIZE=12;  BTZSIZE=12
+  MGXSIZE=32;  MGYSIZE=32;  MGZSIZE=32
+  FTXSIZE=64;  FTYSIZE=64;  FTZSIZE=64
+  case $NGBCLASS in 
+    S )   DEPTH=3     ;;
+    W )   DEPTH=50    ;;
+    A )   DEPTH=150   ;;
+    B )   DEPTH=600   ;;
+    C )   DEPTH=2400  ;;
+  esac
+fi
+    
+set -A CODEA       bt mg ft
+set -A OTXSIZE     $BTXSIZE $MGXSIZE $FTXSIZE 
+set -A OTYSIZE     $BTYSIZE $MGYSIZE $FTYSIZE 
+set -A OTZSIZE     $BTZSIZE $MGZSIZE $FTZSIZE 
+set -A INXSIZE     $FTXSIZE $BTXSIZE $MGXSIZE 
+set -A INYSIZE     $FTYSIZE $BTYSIZE $MGYSIZE 
+set -A INZSIZE     $FTZSIZE $BTZSIZE $MGZSIZE 
+
+WIDTH=3
+MAX_TASK=`expr $WIDTH \* $DEPTH`
+
+. ./common/DEPLOY.sh
+
+TASK=0
+    
+while [ $TASK -lt $MAX_TASK ]; do
+  TASKMOD3=`expr $TASK % 3`
+  CODE=${CODEA[$TASKMOD3]}
+  OUTNAME_MF=$NAME.$TASK.$PID.IN
+  OUTNAME_NPB1=$NAME.$TASK.$PID
+  VERIFY=0
+  MODE=s
+  FILTER=1
+  NUM_INPUTS=1
+
+  # This is a BT node
+  if [ $TASKMOD3 -eq 0 ]; then
+    FILTER=0
+    if [ $TASK -eq 0 ]; then
+      NUM_INPUTS=0
+    else
+      INNAME_MF1=$NAME.`expr $TASK - 3`.$PID.BT
+    fi
+    if [ $TASK -ne `expr $MAX_TASK - 3` ]; then
+      OUTNAME_NPB2=$NAME.$TASK.$PID.BT
+    fi
+
+  # Now we do an MG node
+  elif [ $TASKMOD3 -eq 1 ]; then
+    INNAME_MF1=$NAME.`expr $TASK - 1`.$PID
+
+  # Finally we do an FT node
+  else
+    INNAME_MF1=$NAME.`expr $TASK - 1`.$PID
+    if [ $TASK -ne 2 ]; then
+      NUM_INPUTS=2
+      INNAME_MF2=$NAME.`expr $TASK - 3`.$PID
+    fi
+    if [ $TASK -eq `expr $MAX_TASK - 1` ]; then
+      VERIFY=1
+    fi
+  fi
+
+  OUTXSIZE=${OTXSIZE[$TASKMOD3]}
+  OUTYSIZE=${OTYSIZE[$TASKMOD3]}
+  OUTZSIZE=${OTZSIZE[$TASKMOD3]}
+  INXSIZE1=${INXSIZE[$TASKMOD3]}
+  INYSIZE1=${INYSIZE[$TASKMOD3]}
+  INZSIZE1=${INZSIZE[$TASKMOD3]}
+  INXSIZE2=${OTXSIZE[$TASKMOD3]}
+  INYSIZE2=${OTYSIZE[$TASKMOD3]}
+  INZSIZE2=${OTZSIZE[$TASKMOD3]}
+
+  . ./common/NODE.sh
+
+  TASK=`expr $TASK + 1`
+done
+
+. ./common/VERIFY.sh
+
+

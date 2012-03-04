@@ -1,0 +1,118 @@
+#########################################
+# Grid NAS Parallel Benchmarks          #
+# F77                                   #
+# Revision 3.1-GT2.4-KSH                #
+# NASA Ames Research Center             #
+# npb@nas.nasa.gov                      #
+# http://www.nas.nasa.gov/Software/NPB/ #
+#########################################
+
+
+This README file explains how to build and run the Grid NAS Parallel Benchmark 
+suite.  Please read the technical report NAS-02-005 as well, and the README
+file in subdirectory GridNPB3.1-SHF-SER.
+
+1. Edit the site- and machine-specific data in config/make.def
+   Several sample versions are included in subdirectory NAS.samples
+   of the config directory so you may be able to copy one. A clean 
+   version is in config/make.def.template.
+
+2. Create a grid configuration file config/ngbhosts. Each line should
+   contain a host name and, optionally, an architecture type. No spaces
+   are allowed in either. The architecture type is used to select the
+   subdirectory containing executables for the corresponding host.
+   A hostname may contain a directory in which the temporary directory is
+   created inside of which the NGB is run. The format is: "host:directory".
+   If no directory is specified, the user's home directory will be used.
+   Examples:
+   jacksmachine.penguin.com
+   jacksmachine.penguin.com:/tmp
+   jillsmachine.penguin.com:ngbruns   linux
+   The first example looks in subdirectory "bin" for executables to be run on
+   host "jacksmachine.penguin.com," and creates a temporary working directory 
+   in the user's home directory on that machine. The second example does the 
+   same, but the temporary working directory is in "/tmp". The third example 
+   runs tasks in a temporary working directory created in the subdirectory 
+   "ngbruns" of the user's home directory on host "jillsmachine.penguin.com" 
+   and looks in directory "bin.linux" for executables for that host. 
+   Tasks in NGBs are mapped round robin to hosts in the ngbhosts file.
+   If no file config/ngbhosts is found, the benchmark will create one and
+   put the local host name in it.
+   If all hosts are in the same domain, it is not necessary to list that 
+   domain as part of the host names.
+
+3. Each benchmark comes in 4 sizes (classes), ranked in order of
+   increasing data set sizes and computational work involved: S, W, A, B.
+   Since Fortran 77 doesn't have dynamic memory allocation, the class 
+   must be specified at compile time.
+
+   To compile a given benchmark for a class X, type:
+
+       make benchmark-name CLASS=X
+
+   All executables related to the benchmark that has been built are
+   placed in the subdirectory "bin" of the distribution. 
+
+4. To make all benchmarks of class X at the same time, type:
+
+         make all CLASS=X
+
+   Note: the process-intensive "Rapid Fire" (parameter "-RF") variation 
+   of the grid benchmarks only use Class S executables. To build these
+   benchmarks, always select "CLASS=S", regardless of which class is
+   specified during execution.
+
+5. To build a single executable (SP,BT,FT,MG,LU, or MF) of class X, type:
+
+         make executable-name CLASS=X
+
+6. The benchmark is executed using a Korn shell script, located in the root 
+   directory of the distribution (name: ED, HC, VP, or MB). It takes the 
+   class of the whole benchmark as a required parameter. Optional 
+   parameters are:
+
+   parameter         function                         VALUE
+   -------------------------------------------------------------------------------------
+   -v                for verbose execution
+   -u                for unformatted data files
+   -RF               for Rapid Fire variation
+   -ftp=VALUE        file transfer method             GSISCP (default) or GRIDFTP
+   -jmgr=VALUE       job manager                      FORK (default) or QUEUE or DEFAULT
+   -path=VALUE       search path on execution hosts   colon-separated path
+   -deploy=VALUE     copy scripts and executables     AUTOMATIC (default) or MANUAL
+   -timeout=VALUE    time before any task times out   seconds
+
+   Job managers that are always defined are FORK and DEFAULT. In the latter 
+   case the job manager designated by the administrator of the remote system 
+   is used. Manager QUEUE currently selects the Portable Batch System (PBS). 
+   Edit file "common/PARSE.sh" to change to another value.
+
+   The path to system tools on the remote execution host (e.g. ls, touch, 
+   echo, rm, gsiscp) is sometimes set by globus or the batch queueing system, 
+   but this is not guaranteed.  A barebones default path is set in file 
+   config/path.def.template. Copy to config/path.def and edit to reflect 
+   locations on the remote host(s), or type the whole path on the command 
+   line, using the "-path" flag.
+
+   AUTOMATIC deployment of scripts and executables creates a temporary 
+   subdirectory in the user designated locations on remote hosts. If MANUAL 
+   deployment is selected, the user is responsible for copying file 
+   common/NODE.sh to the user designated locations on remote hosts and 
+   rename it NODE.sh.hostname.scratch, and to create in the same locations
+   a subdirectory named NGB.hostname.scratch, where "hostname" is the name 
+   of the host from which the benchmark was launched (without domain name 
+   information, i.e. output of "hostname -s"). All needed executables should 
+   be copied to NGB.hostname.scratch. 
+
+   Benchmark tasks may time out. Some default timeout values are provided, 
+   but the user can override these with the -timeout flag.
+
+   Example:
+   VP S -u -v -ftp=GRIDFTP -jmgr=DEFAULT -path=`echo $PATH` -deploy=MANUAL -timeout=3000
+
+7. If the benchmark completes it will automatically remove any temporary 
+   files that were created. However, if it crashes, no complete cleanup will 
+   be done, and the user should remove any newly created subdirectories and 
+   files on the launch host and from the directories specified on the remote 
+   hosts, if desired. Leftover temporary files will not interfere with 
+   subsequent benchmark runs, but may clog the file system.

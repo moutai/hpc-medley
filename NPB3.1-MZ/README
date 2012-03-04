@@ -1,0 +1,23 @@
+NAS Parallel Benchmarks 3.1, Multi-Zone Versions
+-------------------------------------------------
+
+For the description of the benchmarks, please refer to
+   http://www.nas.nasa.gov/Research/Reports/Techreports/2003/
+   nas-03-010-abstract.html
+
+The current distribution contains the following implementations:
+
+   NPB3.1-MZ-SER:  a serial version
+   NPB3.1-MZ-MPI:  a hybrid MPI + OpenMP version
+   NPB3.1-MZ-SMP:  a hybrid SMP + OpenMP version
+
+See individual README files in the corresponding directory
+for details on compilation and execution.  Revision history
+is given in Changes.log.
+
+
+   NPB Development Team
+   npb@nas.nasa.gov
+
+   March, 2004
+

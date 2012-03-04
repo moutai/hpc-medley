@@ -1,0 +1,14 @@
+#This is for an IBM workstation
+F77 	= xlf
+FLINK	= ${F77}
+#FFLAGS	= -g
+FFLAGS	= -O3 -DIBM
+
+CC 	= cc
+CLINK	= ${CC}
+#CFLAGS	= -g
+CFLAGS	= -O3 -DIBM
+
+BINDIR	= ../bin
+
+WTIME	= wtime.c
