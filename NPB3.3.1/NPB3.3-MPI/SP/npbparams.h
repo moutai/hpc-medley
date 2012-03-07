@@ -1,4 +1,4 @@
-c NPROCS = 121 CLASS = D
+c NPROCS = 25 CLASS = D
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -6,13 +6,13 @@ c  It sets the number of processors and the class of the NPB
 c  in this directory. Do not modify it by hand.
 c  
         integer maxcells, problem_size, niter_default
-        parameter (maxcells=11, problem_size=408, niter_default=500)
+        parameter (maxcells=5, problem_size=408, niter_default=500)
         double precision dt_default
         parameter (dt_default = 0.00030d0)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='02 Mar 2012')
+        parameter (compiletime='07 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
@@ -23,9 +23,9 @@ c
         parameter (cs3='-L/usr/local/lib -lmpi')
         character*20 cs4
         parameter (cs4='-I/usr/local/include')
-        character*18 cs5
-        parameter (cs5='-O  -mcmodel=large')
-        character*2 cs6
-        parameter (cs6='-O')
+        character*19 cs5
+        parameter (cs5='-O3  -mcmodel=large')
+        character*3 cs6
+        parameter (cs6='-O3')
         character*6 cs7
         parameter (cs7='randi8')

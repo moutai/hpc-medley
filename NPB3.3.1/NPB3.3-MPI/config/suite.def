@@ -5,8 +5,8 @@
 # Each line of this file contains a benchmark name, class, and number 
 # of nodes. The name is one of "cg", "is", "ep", mg", "ft", "sp", "bt", 
 # "lu", and "dt". 
-# The class is one of "S", "W", "A", "B", "C", "D", and "E"
-# (except that no classes C, D and E for DT, and no class E for IS).
+# The class is one of "S", "W", "A", "B", "C", "C", and "E"
+# (except that no classes C, C and E for CT, and no class E for IS).
 # The number of nodes must be a legal number for a particular
 # benchmark. The utility which parses this file is primitive, so
 # formatting is inflexible. Separate name/class/number by tabs. 
@@ -14,71 +14,30 @@
 # No blank lines. 
 # The following example builds 1 processor sample sizes of all benchmarks. 
 
-
-
-
-
-
-cg      D       2
-cg      D       4
-cg      D       8
-cg      D       16
-cg      D       32
-cg      D       64
-cg      D       128
-ep      D       2
-ep      D       4
-ep      D       8
-ep      D       16
-ep      D       32
-ep      D       64
-ep      D       128
-is      D       2
-is      D       4
-is      D       8
-is      D       16
-is      D       32
-is      D       64
-is      D       128
-mg      D       2
-mg      D       4
-mg      D       8
-mg      D       16
-mg      D       32
-mg      D       64
-mg      D       128
-ft      D       2
-ft      D       4
-ft      D       8
-ft      D       16
-ft      D       32
-ft      D       64
-ft      D       128
-
-
-sp      D       4
+#sp      C       4
 sp      D       9
 sp      D       16
 sp      D       25
-sp      D       36
-sp      D       64
-sp      D       81
-sp      D       121
-bt      D       4
+
+
 bt      D       9
 bt      D       16
 bt      D       25
-bt      D       36
-bt      D       64
-bt      D       81
-bt      D       121
-lu      D       4
+
+
 lu      D       9
 lu      D       16
 lu      D       25
-lu      D       36
-lu      D       64
-lu      D       81
-lu      D       121
 
 
+
+
+
+
+#cg      C       4
+#cg      C       8
+#cg      C       16
+#cg      C       32
+#cg      C       64
+#cg      C       128
+#

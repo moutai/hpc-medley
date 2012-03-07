@@ -1,6 +1,0 @@
-
- NAS Parallel Benchmarks 3.3 -- EP Benchmark
-
- Number of random numbers generated:    137438953472
- Number of active processes:                     128
-
