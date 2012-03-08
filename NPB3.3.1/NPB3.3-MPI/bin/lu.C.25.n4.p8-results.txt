@@ -1,0 +1,1 @@
+ Error: number of processes     4 less than compiled    25

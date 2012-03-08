@@ -1,0 +1,61 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:    32
+ WARNING: compiled for   121 processes 
+ Number of active processes:    25
+
+           0           1          33          33          33
+  Problem size too big for compiled array sizes
+           1           1          33          33          33
+  Problem size too big for compiled array sizes
+           2           1          32          33          33
+  Problem size too big for compiled array sizes
+           3           1          32          33          33
+  Problem size too big for compiled array sizes
+           8           1          32          33          33
+  Problem size too big for compiled array sizes
+           9           1          32          33          33
+  Problem size too big for compiled array sizes
+          10           1          33          32          33
+  Problem size too big for compiled array sizes
+          11           1          33          32          33
+  Problem size too big for compiled array sizes
+          12           1          32          32          33
+  Problem size too big for compiled array sizes
+          13           1          32          32          33
+  Problem size too big for compiled array sizes
+          14           1          32          32          33
+  Problem size too big for compiled array sizes
+          15           1          33          32          33
+  Problem size too big for compiled array sizes
+          24           1          32          32          33
+  Problem size too big for compiled array sizes
+          16           1          33          32          33
+  Problem size too big for compiled array sizes
+          17           1          32          32          33
+  Problem size too big for compiled array sizes
+          20           1          33          32          33
+  Problem size too big for compiled array sizes
+          21           1          33          32          33
+  Problem size too big for compiled array sizes
+          18           1          32          32          33
+  Problem size too big for compiled array sizes
+          22           1          32          32          33
+  Problem size too big for compiled array sizes
+           4           1          32          33          33
+  Problem size too big for compiled array sizes
+          19           1          32          32          33
+  Problem size too big for compiled array sizes
+           5           1          33          33          33
+  Problem size too big for compiled array sizes
+           6           1          33          33          33
+  Problem size too big for compiled array sizes
+           7           1          32          33          33
+  Problem size too big for compiled array sizes
+          23           1          32          32          33
+  Problem size too big for compiled array sizes

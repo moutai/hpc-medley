@@ -1,0 +1,13 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     2
+ WARNING: compiled for    16 processes 
+ Number of active processes:     1
+
+           0           1         162         162         162
+  Problem size too big for compiled array sizes

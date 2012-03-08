@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 25766 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 25773 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 25782 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 25790 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 29869 on node w071 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 25822 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 25837 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 25851 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 12215 on node w069 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 25879 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 25891 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 25917 on node w072 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 12257 on node w069 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[w072:25967] [[61366,0],0]-[[61366,1],1] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 12 with PID 12263 on node w069 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 11 with PID 29930 on node w071 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 13 with PID 29953 on node w071 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 17 with PID 4408 on node w064 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 13 with PID 12291 on node w069 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[w071:29988] [[61232,0],1]-[[61232,1],11] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[w071:29988] [[61232,0],1]-[[61232,1],8] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[w071:29988] [[61232,0],1]-[[61232,1],12] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 9 with PID 29990 on node w071 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 26 with PID 29415 on node w070 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

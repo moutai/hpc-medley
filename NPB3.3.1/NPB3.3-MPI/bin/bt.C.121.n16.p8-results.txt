@@ -1,0 +1,42 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          41          41          41
+  Problem size too big for compiled array sizes
+           2           1          40          41          41
+  Problem size too big for compiled array sizes
+           3           1          40          41          41
+  Problem size too big for compiled array sizes
+           4           1          41          41          41
+  Problem size too big for compiled array sizes
+           5           1          41          41          41
+  Problem size too big for compiled array sizes
+           6           1          40          41          41
+  Problem size too big for compiled array sizes
+           7           1          40          41          41
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for   121 processes 
+ Number of active processes:    16
+
+           0           1          41          41          41
+  Problem size too big for compiled array sizes
+           8           1          41          40          41
+  Problem size too big for compiled array sizes
+           9           1          41          40          41
+  Problem size too big for compiled array sizes
+          10           1          40          40          41
+  Problem size too big for compiled array sizes
+          11           1          40          40          41
+  Problem size too big for compiled array sizes
+          12           1          41          40          41
+  Problem size too big for compiled array sizes
+          13           1          41          40          41
+  Problem size too big for compiled array sizes
+          14           1          40          40          41
+  Problem size too big for compiled array sizes
+          15           1          40          40          41
+  Problem size too big for compiled array sizes

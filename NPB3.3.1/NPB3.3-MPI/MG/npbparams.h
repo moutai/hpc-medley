@@ -1,4 +1,4 @@
-c NPROCS = 128 CLASS = D
+c NPROCS = 256 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -6,19 +6,19 @@ c  It sets the number of processors and the class of the NPB
 c  in this directory. Do not modify it by hand.
 c  
         integer nprocs_compiled
-        parameter (nprocs_compiled = 128)
+        parameter (nprocs_compiled = 256)
         integer nx_default, ny_default, nz_default
-        parameter (nx_default=1024, ny_default=1024, nz_default=1024)
+        parameter (nx_default=512, ny_default=512, nz_default=512)
         integer nit_default, lm, lt_default
-        parameter (nit_default=50, lm = 8, lt_default=10)
+        parameter (nit_default=20, lm = 7, lt_default=9)
         integer debug_default
         parameter (debug_default=0)
         integer ndim1, ndim2, ndim3
-        parameter (ndim1 = 8, ndim2 = 8, ndim3 = 7)
+        parameter (ndim1 = 7, ndim2 = 6, ndim3 = 6)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='02 Mar 2012')
+        parameter (compiletime='07 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
@@ -29,9 +29,9 @@ c
         parameter (cs3='-L/usr/local/lib -lmpi')
         character*20 cs4
         parameter (cs4='-I/usr/local/include')
-        character*18 cs5
-        parameter (cs5='-O  -mcmodel=large')
-        character*2 cs6
-        parameter (cs6='-O')
+        character*19 cs5
+        parameter (cs5='-O3  -mcmodel=large')
+        character*3 cs6
+        parameter (cs6='-O3')
         character*6 cs7
         parameter (cs7='randi8')

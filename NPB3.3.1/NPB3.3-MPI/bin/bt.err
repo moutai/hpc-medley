@@ -1,0 +1,943 @@
+----------------------------------------
+Begin Batch Job Prologue Thu Mar  8 03:58:13 EST 2012
+Job ID:           63290.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         bt.C
+Resources List:   neednodes=32:ppn=12,nodes=32:ppn=12,walltime=02:00:00
+Queue:            normal
+Account:          
+Nodes:            w037 w038 w039 w040 w041 w042 w043 w044 w047 w048 w049 w050 w051 w054 w055 w056 w057 w058 w059 w060 w061 w062 w063 w064 w065 w066 w067 w068 w069 w070 w071 w072 
+End Batch Job Prologue Thu Mar  8 03:58:14 EST 2012
+----------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     2
+ WARNING: compiled for     4 processes 
+ Number of active processes:     1
+
+           0           1         162         162         162
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     2
+ WARNING: compiled for    16 processes 
+ Number of active processes:     1
+
+           0           1         162         162         162
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     2
+ WARNING: compiled for    16 processes 
+ Number of active processes:     1
+
+           0           1         162         162         162
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.4226945909422E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.2238227754985E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.7813259821725E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.3760393161243E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1018902278698E-13
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.5179509472933E-15
+           2 0.1149710790382E+02 0.1149710790382E+02 0.3399102695540E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1379445320989E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.9770820876587E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.3139561767476E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   328.95
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  8713.49
+ Mop/s/process   =                  2178.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.4226945909422E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.2238227754985E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.7813259821725E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.3760393161243E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1018902278698E-13
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.5179509472933E-15
+           2 0.1149710790382E+02 0.1149710790382E+02 0.3399102695540E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1379445320989E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.9770820876587E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.3139561767476E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   333.03
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  8606.57
+ Mop/s/process   =                  2151.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for    16 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for    25 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for    36 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     8
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.4226945909422E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.2238227754985E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.7813259821725E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.3760393161243E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1018902278698E-13
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.5179509472933E-15
+           2 0.1149710790382E+02 0.1149710790382E+02 0.3399102695540E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1379445320989E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.9770820876587E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.3139561767476E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   329.85
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                  8689.71
+ Mop/s/process   =                  1086.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     8
+ WARNING: compiled for    16 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     8
+ WARNING: compiled for    25 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     8
+ WARNING: compiled for    64 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          81          81          81
+  Problem size too big for compiled array sizes
+           2           1          81          81          81
+  Problem size too big for compiled array sizes
+           3           1          81          81          81
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:     8
+ WARNING: compiled for    81 processes 
+ Number of active processes:     4
+
+           0           1          81          81          81
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.2915135109947E-15
+           2 0.5079323919042E+03 0.5079323919042E+03 0.4476455509971E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.2063879952909E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.1709269618747E-15
+           5 0.1160408742844E+05 0.1160408742844E+05 0.2194558754119E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.2935055367995E-14
+           2 0.1149710790382E+02 0.1149710790382E+02 0.2317570019686E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1207014655866E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.1149508338422E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.2982583679102E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    87.96
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 32587.50
+ Mop/s/process   =                  2036.72
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for    25 processes 
+ Number of active processes:    16
+
+           1           1          41          41          41
+  Problem size too big for compiled array sizes
+           0           1          41          41          41
+  Problem size too big for compiled array sizes
+           4           1          41          41          41
+  Problem size too big for compiled array sizes
+           5           1          41          41          41
+  Problem size too big for compiled array sizes
+          12           1          41          40          41
+  Problem size too big for compiled array sizes
+          13           1          41          40          41
+  Problem size too big for compiled array sizes
+           6           1          40          41          41
+  Problem size too big for compiled array sizes
+          14           1          40          40          41
+  Problem size too big for compiled array sizes
+           7           1          40          41          41
+  Problem size too big for compiled array sizes
+           8           1          41          40          41
+  Problem size too big for compiled array sizes
+          10           1          40          40          41
+  Problem size too big for compiled array sizes
+          15           1          40          40          41
+  Problem size too big for compiled array sizes
+           2           1          40          41          41
+  Problem size too big for compiled array sizes
+           9           1          41          40          41
+  Problem size too big for compiled array sizes
+          11           1          40          40          41
+  Problem size too big for compiled array sizes
+           3           1          40          41          41
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          41          41          41
+  Problem size too big for compiled array sizes
+           2           1          40          41          41
+  Problem size too big for compiled array sizes
+           3           1          40          41          41
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for    64 processes 
+ Number of active processes:    16
+
+           0           1          41          41          41
+  Problem size too big for compiled array sizes
+           8           1          41          40          41
+  Problem size too big for compiled array sizes
+          12           1          41          40          41
+  Problem size too big for compiled array sizes
+           4           1          41          41          41
+  Problem size too big for compiled array sizes
+           9           1          41          40          41
+  Problem size too big for compiled array sizes
+          13           1          41          40          41
+  Problem size too big for compiled array sizes
+           5           1          41          41          41
+  Problem size too big for compiled array sizes
+          10           1          40          40          41
+  Problem size too big for compiled array sizes
+          14           1          40          40          41
+  Problem size too big for compiled array sizes
+           6           1          40          41          41
+  Problem size too big for compiled array sizes
+          11           1          40          40          41
+  Problem size too big for compiled array sizes
+          15           1          40          40          41
+  Problem size too big for compiled array sizes
+           7           1          40          41          41
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          41          41          41
+  Problem size too big for compiled array sizes
+           2           1          40          41          41
+  Problem size too big for compiled array sizes
+           3           1          40          41          41
+  Problem size too big for compiled array sizes
+           4           1          41          41          41
+  Problem size too big for compiled array sizes
+           5           1          41          41          41
+  Problem size too big for compiled array sizes
+           6           1          40          41          41
+  Problem size too big for compiled array sizes
+           7           1          40          41          41
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for   121 processes 
+ Number of active processes:    16
+
+           0           1          41          41          41
+  Problem size too big for compiled array sizes
+           8           1          41          40          41
+  Problem size too big for compiled array sizes
+           9           1          41          40          41
+  Problem size too big for compiled array sizes
+          10           1          40          40          41
+  Problem size too big for compiled array sizes
+          11           1          40          40          41
+  Problem size too big for compiled array sizes
+          12           1          41          40          41
+  Problem size too big for compiled array sizes
+          13           1          41          40          41
+  Problem size too big for compiled array sizes
+          14           1          40          40          41
+  Problem size too big for compiled array sizes
+          15           1          40          40          41
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          41          41          41
+  Problem size too big for compiled array sizes
+           2           1          40          41          41
+  Problem size too big for compiled array sizes
+           3           1          40          41          41
+  Problem size too big for compiled array sizes
+           4           1          41          41          41
+  Problem size too big for compiled array sizes
+           5           1          41          41          41
+  Problem size too big for compiled array sizes
+           6           1          40          41          41
+  Problem size too big for compiled array sizes
+           7           1          40          41          41
+  Problem size too big for compiled array sizes
+           8           1          41          40          41
+  Problem size too big for compiled array sizes
+           9           1          41          40          41
+  Problem size too big for compiled array sizes
+          10           1          40          40          41
+  Problem size too big for compiled array sizes
+          11           1          40          40          41
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ WARNING: compiled for   169 processes 
+ Number of active processes:    16
+
+           0           1          41          41          41
+  Problem size too big for compiled array sizes
+          12           1          41          40          41
+  Problem size too big for compiled array sizes
+          13           1          41          40          41
+  Problem size too big for compiled array sizes
+          14           1          40          40          41
+  Problem size too big for compiled array sizes
+          15           1          40          40          41
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:    32
+ Number of active processes:    25
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.7287837774866E-15
+           2 0.5079323919042E+03 0.5079323919042E+03 0.0000000000000E+00
+           3 0.1542353009301E+04 0.1542353009301E+04 0.1326779969727E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.8546348093735E-15
+           5 0.1160408742844E+05 0.1160408742844E+05 0.4702625901684E-15
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.0000000000000E+00
+           2 0.1149710790382E+02 0.1149710790382E+02 0.2008560683728E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1379445320989E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.5747541692110E-15
+           5 0.3621105305184E+03 0.3621105305184E+03 0.1255824706991E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    54.71
+ Total processes =                       32
+ Compiled procs  =                       25
+ Mop/s total     =                 52386.74
+ Mop/s/process   =                  1637.09
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:    32
+ WARNING: compiled for    64 processes 
+ Number of active processes:    25
+
+           1           1          33          33          33
+  Problem size too big for compiled array sizes
+           0           1          33          33          33
+  Problem size too big for compiled array sizes
+           8           1          32          33          33
+  Problem size too big for compiled array sizes
+           9           1          32          33          33
+  Problem size too big for compiled array sizes
+           4           1          32          33          33
+  Problem size too big for compiled array sizes
+           5           1          33          33          33
+  Problem size too big for compiled array sizes
+          14           1          32          32          33
+  Problem size too big for compiled array sizes
+          15           1          33          32          33
+  Problem size too big for compiled array sizes
+          10           1          33          32          33
+  Problem size too big for compiled array sizes
+           6           1          33          33          33
+  Problem size too big for compiled array sizes
+          11           1          33          32          33
+  Problem size too big for compiled array sizes
+           7           1          32          33          33
+  Problem size too big for compiled array sizes
+          16           1          33          32          33
+  Problem size too big for compiled array sizes
+           2           1          32          33          33
+  Problem size too big for compiled array sizes
+          17           1          32          32          33
+  Problem size too big for compiled array sizes
+          24           1          32          32          33
+  Problem size too big for compiled array sizes
+           3           1          32          33          33
+  Problem size too big for compiled array sizes
+          12           1          32          32          33
+  Problem size too big for compiled array sizes
+          18           1          32          32          33
+  Problem size too big for compiled array sizes
+          13           1          32          32          33
+  Problem size too big for compiled array sizes
+          19           1          32          32          33
+  Problem size too big for compiled array sizes
+          20           1          33          32          33
+  Problem size too big for compiled array sizes
+          21           1          33          32          33
+  Problem size too big for compiled array sizes
+          22           1          32          32          33
+  Problem size too big for compiled array sizes
+          23           1          32          32          33
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:    32
+ WARNING: compiled for   121 processes 
+ Number of active processes:    25
+
+           0           1          33          33          33
+  Problem size too big for compiled array sizes
+           1           1          33          33          33
+  Problem size too big for compiled array sizes
+           2           1          32          33          33
+  Problem size too big for compiled array sizes
+           3           1          32          33          33
+  Problem size too big for compiled array sizes
+           8           1          32          33          33
+  Problem size too big for compiled array sizes
+           9           1          32          33          33
+  Problem size too big for compiled array sizes
+          10           1          33          32          33
+  Problem size too big for compiled array sizes
+          11           1          33          32          33
+  Problem size too big for compiled array sizes
+          12           1          32          32          33
+  Problem size too big for compiled array sizes
+          13           1          32          32          33
+  Problem size too big for compiled array sizes
+          14           1          32          32          33
+  Problem size too big for compiled array sizes
+          15           1          33          32          33
+  Problem size too big for compiled array sizes
+          24           1          32          32          33
+  Problem size too big for compiled array sizes
+          16           1          33          32          33
+  Problem size too big for compiled array sizes
+          17           1          32          32          33
+  Problem size too big for compiled array sizes
+          20           1          33          32          33
+  Problem size too big for compiled array sizes
+          21           1          33          32          33
+  Problem size too big for compiled array sizes
+          18           1          32          32          33
+  Problem size too big for compiled array sizes
+          22           1          32          32          33
+  Problem size too big for compiled array sizes
+           4           1          32          33          33
+  Problem size too big for compiled array sizes
+          19           1          32          32          33
+  Problem size too big for compiled array sizes
+           5           1          33          33          33
+  Problem size too big for compiled array sizes
+           6           1          33          33          33
+  Problem size too big for compiled array sizes
+           7           1          32          33          33
+  Problem size too big for compiled array sizes
+          23           1          32          32          33
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+           1           1          33          33          33
+  Problem size too big for compiled array sizes
+           2           1          32          33          33
+  Problem size too big for compiled array sizes
+           3           1          32          33          33
+  Problem size too big for compiled array sizes
+           4           1          32          33          33
+  Problem size too big for compiled array sizes
+           5           1          33          33          33
+  Problem size too big for compiled array sizes
+           6           1          33          33          33
+  Problem size too big for compiled array sizes
+           7           1          32          33          33
+  Problem size too big for compiled array sizes
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:    32
+ WARNING: compiled for   256 processes 
+ Number of active processes:    25
+
+           0           1          33          33          33
+  Problem size too big for compiled array sizes
+          24           1          32          32          33
+  Problem size too big for compiled array sizes
+           8           1          32          33          33
+  Problem size too big for compiled array sizes
+          10           1          33          32          33
+  Problem size too big for compiled array sizes
+          12           1          32          32          33
+  Problem size too big for compiled array sizes
+          14           1          32          32          33
+  Problem size too big for compiled array sizes
+          16           1          33          32          33
+  Problem size too big for compiled array sizes
+          15           1          33          32          33
+  Problem size too big for compiled array sizes
+          17           1          32          32          33
+  Problem size too big for compiled array sizes
+          18           1          32          32          33
+  Problem size too big for compiled array sizes
+          19           1          32          32          33
+  Problem size too big for compiled array sizes
+          20           1          33          32          33
+  Problem size too big for compiled array sizes
+           9           1          32          33          33
+  Problem size too big for compiled array sizes
+          21           1          33          32          33
+  Problem size too big for compiled array sizes
+          11           1          33          32          33
+  Problem size too big for compiled array sizes
+          22           1          32          32          33
+  Problem size too big for compiled array sizes
+          13           1          32          32          33
+  Problem size too big for compiled array sizes
+          23           1          32          32          33
+  Problem size too big for compiled array sizes
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Total number of processes:    32
+ WARNING: compiled for   361 processes 
+ Number of active processes:    25
+
+           0           1          33          33          33
+  Problem size too big for compiled array sizes
+           1           1          33          33          33
+  Problem size too big for compiled array sizes
+           2           1          32          33          33
+  Problem size too big for compiled array sizes
+           3           1          32          33          33
+  Problem size too big for compiled array sizes
+           4           1          32          33          33
+  Problem size too big for compiled array sizes
+           5           1          33          33          33
+  Problem size too big for compiled array sizes
+           6           1          33          33          33
+  Problem size too big for compiled array sizes
+           7           1          32          33          33
+  Problem size too big for compiled array sizes
+           8           1          32          33          33
+  Problem size too big for compiled array sizes
+           9           1          32          33          33
+  Problem size too big for compiled array sizes
+          10           1          33          32          33
+  Problem size too big for compiled array sizes
+          11           1          33          32          33
+  Problem size too big for compiled array sizes
+          12           1          32          32          33
+  Problem size too big for compiled array sizes
+          24           1          32          32          33
+  Problem size too big for compiled array sizes
+          13           1          32          32          33
+  Problem size too big for compiled array sizes
+          14           1          32          32          33
+  Problem size too big for compiled array sizes
+          15           1          33          32          33
+  Problem size too big for compiled array sizes
+          16           1          33          32          33
+  Problem size too big for compiled array sizes
+          17           1          32          32          33
+  Problem size too big for compiled array sizes
+          18           1          32          32          33
+  Problem size too big for compiled array sizes
+          19           1          32          32          33
+  Problem size too big for compiled array sizes
+          20           1          33          32          33
+  Problem size too big for compiled array sizes
+          21           1          33          32          33
+  Problem size too big for compiled array sizes
+          22           1          32          32          33
+  Problem size too big for compiled array sizes
+          23           1          32          32          33
+  Problem size too big for compiled array sizes
+----------------------------------------
+Begin Batch Job Epilogue Thu Mar  8 04:17:40 EST 2012
+Job ID:           63290.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         bt.C
+Session:          21465
+Limits:           neednodes=32:ppn=12,nodes=32:ppn=12,walltime=02:00:00
+Resources:        cput=01:35:33,mem=4845744kb,vmem=61507592kb,walltime=00:19:27
+Queue:            normal
+Account:          
+End Batch Job Epilogue Thu Mar  8 04:18:00 EST 2012
+----------------------------------------
