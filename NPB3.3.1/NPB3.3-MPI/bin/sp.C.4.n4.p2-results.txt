@@ -5,6 +5,7 @@
  No input file inputsp.data. Using compiled defaults
  Size:  162x 162x 162
  Iterations:  400    dt:   0.0006700
+ Total number of processes:     8
  Number of active processes:     4
 
  Time step    1
@@ -49,11 +50,11 @@
  Class           =                        C
  Size            =            162x 162x 162
  Iterations      =                      400
- Time in seconds =                   263.26
- Total processes =                        4
+ Time in seconds =                   250.83
+ Total processes =                        8
  Compiled procs  =                        4
- Mop/s total     =                  5508.22
- Mop/s/process   =                  1377.05
+ Mop/s total     =                  5781.29
+ Mop/s/process   =                   722.66
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

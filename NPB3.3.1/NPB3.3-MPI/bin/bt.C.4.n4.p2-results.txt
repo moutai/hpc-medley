@@ -5,6 +5,7 @@
  No input file inputbt.data. Using compiled defaults
  Size:  162x 162x 162
  Iterations:  200    dt:   0.0001000
+ Total number of processes:     8
  Number of active processes:     4
 
  Time step    1
@@ -39,11 +40,11 @@
  Class           =                        C
  Size            =            162x 162x 162
  Iterations      =                      200
- Time in seconds =                   333.03
- Total processes =                        4
+ Time in seconds =                   329.46
+ Total processes =                        8
  Compiled procs  =                        4
- Mop/s total     =                  8606.57
- Mop/s/process   =                  2151.64
+ Mop/s total     =                  8699.88
+ Mop/s/process   =                  1087.49
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

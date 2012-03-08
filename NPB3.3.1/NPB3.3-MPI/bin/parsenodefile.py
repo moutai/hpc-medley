@@ -1,6 +1,6 @@
 import sys
 f =open(sys.argv[1], "r")
-fout= open ("myhostfile.txt","w")
+fout= open ("parsedhostfile.txt","w")
 previous_line=""
 for line in f.readlines():
 	if previous_line!=line:
