@@ -26,8 +26,8 @@
  Time in seconds =                     3.61
  Total processes =                        4
  Compiled procs  =                        4
- Mop/s total     =                   371.80
- Mop/s/process   =                    92.95
+ Mop/s total     =                   372.20
+ Mop/s/process   =                    93.05
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

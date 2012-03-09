@@ -1,0 +1,51 @@
+# config/suite.def
+# This file is used to build several benchmarks with a single command. 
+# Typing "make suite" in the main directory will build all the benchmarks
+# specified in this file. 
+# Each line of this file contains a benchmark name, class, and number 
+# of nodes. The name is one of "cg", "is", "ep", mg", "ft", "sp", "bt", 
+# "lu", and "dt". 
+# The class is one of "S", "W", "A", "B", "C", "C", and "E"
+# (except that no classes C, C and E for CT, and no class E for IS).
+# The number of nodes must be a legal number for a particular
+# benchmark. The utility which parses this file is primitive, so
+# formatting is inflexible. Separate name/class/number by tabs. 
+# Comments start with "#" as the first character on a line. 
+# No blank lines. 
+# The following example builds 1 processor sample sizes of all benchmarks. 
+sp	C	4
+sp      C      	9
+sp      C       16
+sp      C       25
+sp	C	36
+sp	C	49
+sp	C	64
+sp	C	81
+sp	C	121
+sp	C	169
+sp	C	256
+sp	C	361
+bt	C	4
+bt      C      	9
+bt      C       16
+bt      C       25
+bt	C	36
+bt	C	49
+bt	C	64
+bt	C	81
+bt	C	121
+bt	C	169
+bt	C	256
+bt	C	361
+lu	C	4
+lu      C      	9
+lu      C       16
+lu      C       25
+lu	C	36
+lu	C	49
+lu	C	64
+lu	C	81
+lu	C	121
+lu	C	169
+lu	C	256
+lu	C	361

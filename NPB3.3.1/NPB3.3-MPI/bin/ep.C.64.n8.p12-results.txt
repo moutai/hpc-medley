@@ -2,14 +2,14 @@
  NAS Parallel Benchmarks 3.3 -- EP Benchmark
 
  Number of random numbers generated:      8589934592
- Number of active processes:                       8
+ Number of active processes:                      96
 
 EP Benchmark Results:
 
-CPU Time =   36.4671
+CPU Time =    3.0885
 N = 2^   32
 No. Gaussian Pairs =    3373275903.
-Sums =     4.764367927995972D+04   -8.084072988049158D+04
+Sums =     4.764367927993476D+04   -8.084072988044938D+04
 Counts:
   0    1572172634.
   1    1501108549.
@@ -27,11 +27,11 @@ Counts:
  Class           =                        C
  Size            =               8589934592
  Iterations      =                        0
- Time in seconds =                    36.47
- Total processes =                        8
+ Time in seconds =                     3.09
+ Total processes =                       96
  Compiled procs  =                       64
- Mop/s total     =                   235.55
- Mop/s/process   =                    29.44
+ Mop/s total     =                  2781.29
+ Mop/s/process   =                    28.97
  Operation type  = Random numbers generated
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

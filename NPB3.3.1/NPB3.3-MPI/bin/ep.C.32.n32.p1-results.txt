@@ -6,7 +6,7 @@
 
 EP Benchmark Results:
 
-CPU Time =    8.6472
+CPU Time =    8.6813
 N = 2^   32
 No. Gaussian Pairs =    3373275903.
 Sums =     4.764367927995415D+04   -8.084072988043667D+04
@@ -27,11 +27,11 @@ Counts:
  Class           =                        C
  Size            =               8589934592
  Iterations      =                        0
- Time in seconds =                     8.65
+ Time in seconds =                     8.68
  Total processes =                       32
  Compiled procs  =                       32
- Mop/s total     =                   993.37
- Mop/s/process   =                    31.04
+ Mop/s total     =                   989.47
+ Mop/s/process   =                    30.92
  Operation type  = Random numbers generated
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

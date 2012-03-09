@@ -1,15 +1,18 @@
 ----------------------------------------
-Begin Batch Job Prologue Thu Mar  8 04:59:10 EST 2012
-Job ID:           63303.owlsnest1.nfs
+Begin Batch Job Prologue Fri Mar  9 01:49:13 EST 2012
+Job ID:           63522.owlsnest1.nfs
 Username:         tub51722
 Group:            stdcis
 Job Name:         mg.C
 Resources List:   neednodes=32:ppn=12,nodes=32:ppn=12,walltime=02:00:00
 Queue:            normal
 Account:          
-Nodes:            w041 w042 w043 w044 w045 w046 w047 w048 w049 w050 w051 w052 w053 w054 w055 w056 w057 w058 w059 w060 w061 w062 w063 w064 w065 w066 w067 w068 w069 w070 w071 w072 
-End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
+Nodes:            w001 w002 w003 w004 w012 w016 w028 w029 w042 w043 w044 w045 w046 w047 w048 w049 w057 w058 w059 w060 w061 w062 w063 w064 w065 w066 w067 w068 w069 w070 w071 w072 
+End Batch Job Prologue Fri Mar  9 01:49:14 EST 2012
 ----------------------------------------
+2
+1
+2
 
 
  NAS Parallel Benchmarks 3.3 -- MG Benchmark
@@ -19,7 +22,7 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  Iterations:   20
  Number of processes:      2
 
- Initialization time:           3.130 seconds
+ Initialization time:           3.187 seconds
 
   iter    1
   iter    5
@@ -37,11 +40,11 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                    31.56
+ Time in seconds =                    31.64
  Total processes =                        2
  Compiled procs  =                        2
- Mop/s total     =                  4932.95
- Mop/s/process   =                  2466.48
+ Mop/s total     =                  4920.98
+ Mop/s/process   =                  2460.49
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -70,34 +73,9 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  No input file. Using compiled defaults 
  Size:  512x 512x 512  (class C)
  Iterations:   20
- WARNING: compiled for      4 processes 
- Number of active processes:      2
-
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
  Number of processes:      4
 
- Initialization time:           1.602 seconds
+ Initialization time:           1.717 seconds
 
   iter    1
   iter    5
@@ -115,11 +93,11 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                    16.27
+ Time in seconds =                    17.17
  Total processes =                        4
  Compiled procs  =                        4
- Mop/s total     =                  9569.99
- Mop/s/process   =                  2392.50
+ Mop/s total     =                  9068.58
+ Mop/s/process   =                  2267.14
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -148,34 +126,9 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  No input file. Using compiled defaults 
  Size:  512x 512x 512  (class C)
  Iterations:   20
- WARNING: compiled for      8 processes 
- Number of active processes:      4
-
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
  Number of processes:      8
 
- Initialization time:           0.783 seconds
+ Initialization time:           1.080 seconds
 
   iter    1
   iter    5
@@ -193,11 +146,64 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                     7.79
+ Time in seconds =                     9.92
  Total processes =                        8
  Compiled procs  =                        8
- Mop/s total     =                 19995.57
- Mop/s/process   =                  2499.45
+ Mop/s total     =                 15696.78
+ Mop/s/process   =                  1962.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  512x 512x 512  (class C)
+ Iterations:   20
+ Number of processes:     16
+
+ Initialization time:           0.973 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.5706732285740E-06
+ Error is    0.7421348197557E-15
+
+
+ MG Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                     8.77
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 17759.55
+ Mop/s/process   =                  1109.97
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -227,190 +233,18 @@ End Batch Job Prologue Thu Mar  8 04:59:11 EST 2012
  Size:  512x 512x 512  (class C)
  Iterations:   20
  WARNING: compiled for     16 processes 
- Number of active processes:      8
+ Number of active processes:     24
 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-2 total processes killed (some possibly by mpirun during cleanup)
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
- Number of processes:     16
-
- Initialization time:           0.432 seconds
-
-  iter    1
-  iter    5
-  iter   10
-  iter   15
-  iter   20
-
- Benchmark completed 
- VERIFICATION SUCCESSFUL 
- L2 Norm is  0.5706732285740E-06
- Error is    0.7421348197557E-15
-
-
- MG Benchmark Completed.
- Class           =                        C
- Size            =            512x 512x 512
- Iterations      =                       20
- Time in seconds =                     4.04
- Total processes =                       16
- Compiled procs  =                       16
- Mop/s total     =                 38552.32
- Mop/s/process   =                  2409.52
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              07 Mar 2012
-
- Compile options:
-    MPIF77       = mpif77
-    FLINK        = $(MPIF77)
-    FMPI_LIB     = -L/usr/local/lib -lmpi
-    FMPI_INC     = -I/usr/local/include
-    FFLAGS       = -O3  -mcmodel=large
-    FLINKFLAGS   = -O3
-    RAND         = randi8
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team 
- Internet: npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
- WARNING: compiled for     32 processes 
- Number of active processes:     16
-
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
- Number of processes:     32
-
- Initialization time:           0.241 seconds
-
-  iter    1
-  iter    5
-  iter   10
-  iter   15
-  iter   20
-
- Benchmark completed 
- VERIFICATION SUCCESSFUL 
- L2 Norm is  0.5706732285740E-06
- Error is    0.3692120728284E-13
-
-
- MG Benchmark Completed.
- Class           =                        C
- Size            =            512x 512x 512
- Iterations      =                       20
- Time in seconds =                     2.22
- Total processes =                       32
- Compiled procs  =                       32
- Mop/s total     =                 70189.11
- Mop/s/process   =                  2193.41
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              07 Mar 2012
-
- Compile options:
-    MPIF77       = mpif77
-    FLINK        = $(MPIF77)
-    FMPI_LIB     = -L/usr/local/lib -lmpi
-    FMPI_INC     = -I/usr/local/include
-    FFLAGS       = -O3  -mcmodel=large
-    FLINKFLAGS   = -O3
-    RAND         = randi8
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team 
- Internet: npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
- WARNING: compiled for     64 processes 
- Number of active processes:     32
-
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
 ----------------------------------------
-Begin Batch Job Epilogue Thu Mar  8 05:00:45 EST 2012
-Job ID:           63303.owlsnest1.nfs
+Begin Batch Job Epilogue Fri Mar  9 03:49:15 EST 2012
+Job ID:           63522.owlsnest1.nfs
 Username:         tub51722
 Group:            stdcis
 Job Name:         mg.C
-Session:          25664
+Session:          13196
 Limits:           neednodes=32:ppn=12,nodes=32:ppn=12,walltime=02:00:00
-Resources:        cput=00:03:55,mem=4888624kb,vmem=31565292kb,walltime=00:01:35
+Resources:        cput=47:30:21,mem=4346528kb,vmem=59515804kb,walltime=02:00:02
 Queue:            normal
 Account:          
-End Batch Job Epilogue Thu Mar  8 05:01:05 EST 2012
+End Batch Job Epilogue Fri Mar  9 03:49:35 EST 2012
 ----------------------------------------

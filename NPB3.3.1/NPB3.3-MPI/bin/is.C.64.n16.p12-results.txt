@@ -4,9 +4,9 @@
 
  Size:  134217728  (class C)
  Iterations:   10
- Number of processes:     16
+ Number of processes:     192
 
  ERROR: compiled for 128 processes
- Number of active processes: 16
+ Number of active processes: 192
  Exiting program!
 

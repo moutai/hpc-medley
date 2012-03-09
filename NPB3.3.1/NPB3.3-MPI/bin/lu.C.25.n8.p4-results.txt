@@ -1,1 +1,11 @@
- Error: number of processes     8 less than compiled    25
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   32 processors
+     but was compiled for    25
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    32
+
+ Error: couldn't determine proper proc_grid for nprocs=    32

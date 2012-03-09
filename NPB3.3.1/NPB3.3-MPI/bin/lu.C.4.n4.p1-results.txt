@@ -44,11 +44,11 @@
  Class           =                        C
  Size            =            162x 162x 162
  Iterations      =                      250
- Time in seconds =                   205.87
+ Time in seconds =                   205.73
  Total processes =                        4
  Compiled procs  =                        4
- Mop/s total     =                  9904.17
- Mop/s/process   =                  2476.04
+ Mop/s total     =                  9910.92
+ Mop/s/process   =                  2477.73
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

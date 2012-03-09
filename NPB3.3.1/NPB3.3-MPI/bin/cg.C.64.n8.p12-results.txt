@@ -4,12 +4,12 @@
 
  Size:     150000
  Iterations:    75
- Number of active processes:     8
+ Number of active processes:    96
  Number of nonzeroes per row:       15
  Eigenvalue shift: .110E+03
 
 Error: 
-num of procs allocated   (   8 )
+num of procs allocated   (  96 )
 is not equal to
 compiled number of procs (  64 )
 

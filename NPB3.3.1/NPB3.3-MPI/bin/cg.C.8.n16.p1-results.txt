@@ -97,8 +97,8 @@
  Time in seconds =                    13.93
  Total processes =                       16
  Compiled procs  =                       16
- Mop/s total     =                 10293.67
- Mop/s/process   =                   643.35
+ Mop/s total     =                 10290.73
+ Mop/s/process   =                   643.17
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
