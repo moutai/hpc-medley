@@ -1,0 +1,1209 @@
+----------------------------------------
+Begin Batch Job Prologue Fri Mar  9 01:08:08 EST 2012
+Job ID:           63481.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         lu.C
+Resources List:   neednodes=32:ppn=12,nodes=32:ppn=12,walltime=02:00:00
+Queue:            normal
+Account:          
+Nodes:            w001 w002 w003 w004 w012 w016 w028 w029 w042 w043 w044 w045 w046 w047 w048 w049 w057 w058 w059 w060 w061 w062 w063 w064 w065 w066 w067 w068 w069 w070 w071 w072 
+End Batch Job Prologue Fri Mar  9 01:08:08 EST 2012
+----------------------------------------
+2
+1
+2
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1928251489695E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.6371063113958E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1064820764864E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.3526872468061E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.5395201217177E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1596319796586E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.3937842097655E-15
+           4   0.4822626431540E+02 0.4822626431540E+02 0.6335414544627E-14
+           5   0.4559029100432E+03 0.4559029100433E+03 0.3241762352955E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                   208.67
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  9771.32
+ Mop/s/process   =                  2442.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.7011823598892E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.8919488359541E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1952171402252E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.1037315431783E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.1973854103845E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.4332868019305E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1181352629297E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.3388710105266E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.4114544524905E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1279479977052E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    69.95
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 29149.81
+ Mop/s/process   =                  1821.86
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   24 processors
+     but was compiled for    16
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    24
+
+ Proc_grid for nprocs =    24:    6 x    4
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.3505911799446E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.7645275736749E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1242290892342E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.8298523454262E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.2042912452576E-15
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.2237034651025E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1254251268746E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1443875435807E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.5893408878723E-15
+           5   0.4559029100432E+03 0.4559029100433E+03 0.1371514841635E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1279479977052E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    64.34
+ Total processes =                       24
+ Compiled procs  =                       16
+ Mop/s total     =                 31689.26
+ Mop/s/process   =                  1320.39
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+4
+1
+2
+3
+4
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1928251489695E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.6371063113958E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1064820764864E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.3526872468061E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.5395201217177E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1596319796586E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.3937842097655E-15
+           4   0.4822626431540E+02 0.4822626431540E+02 0.6335414544627E-14
+           5   0.4559029100432E+03 0.4559029100433E+03 0.3241762352955E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                   205.73
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  9910.92
+ Mop/s/process   =                  2477.73
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on    8 processors
+     but was compiled for     4
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:     8
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.2804729439557E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.6371063113958E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.5856514206755E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.2074630863566E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.7967358565047E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.6711103953074E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.4332868019305E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.5250456130207E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.2062693107553E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1246831674214E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.2132466628421E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                   116.60
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                 17486.84
+ Mop/s/process   =                  2185.86
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.7011823598892E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.8919488359541E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1952171402252E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.1037315431783E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.1973854103845E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.4332868019305E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1181352629297E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.3388710105266E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.4114544524905E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1279479977052E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    59.19
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 34447.55
+ Mop/s/process   =                  2152.97
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   32 processors
+     but was compiled for    25
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    32
+
+ Error: couldn't determine proper proc_grid for nprocs=    32
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   48 processors
+     but was compiled for    36
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    48
+
+ Proc_grid for nprocs =    48:    8 x    6
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.0000000000000E+00
+           2   0.8922124588010E+03 0.8922124588010E+03 0.2038740196467E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.5324103824322E-15
+           4   0.2191943438578E+04 0.2191943438578E+04 0.4149261727131E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1430038716803E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.5263610943587E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.2280456852266E-15
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-15
+           4   0.4822626431540E+02 0.4822626431540E+02 0.4420056659042E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1994930678742E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1066233314210E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    32.52
+ Total processes =                       48
+ Compiled procs  =                       36
+ Mop/s total     =                 62702.49
+ Mop/s/process   =                  1306.30
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+8
+1
+2
+3
+4
+5
+6
+7
+8
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on    8 processors
+     but was compiled for     4
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:     8
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.2804729439557E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.6371063113958E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.5856514206755E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.2074630863566E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.7967358565047E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.6711103953074E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.4332868019305E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.5250456130207E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.2062693107553E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1246831674214E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.2132466628421E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                   114.80
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                 17760.81
+ Mop/s/process   =                  2220.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.7011823598892E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.8919488359541E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1952171402252E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.1037315431783E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.1973854103845E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.4332868019305E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1181352629297E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.3388710105266E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.4114544524905E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1279479977052E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    55.96
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 36437.78
+ Mop/s/process   =                  2277.36
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   32 processors
+     but was compiled for    25
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    32
+
+ Error: couldn't determine proper proc_grid for nprocs=    32
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1051773539834E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.1783897671908E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1242290892342E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.4149261727131E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.2631805471794E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1140228426133E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1837659645572E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1473352219681E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1870247511320E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    19.41
+ Total processes =                       64
+ Compiled procs  =                       64
+ Mop/s total     =                105039.95
+ Mop/s/process   =                  1641.25
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   96 processors
+     but was compiled for    81
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    96
+
+ Error: couldn't determine proper proc_grid for nprocs=    96
+16
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.7011823598892E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.8919488359541E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1952171402252E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.1037315431783E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.1973854103845E-14
+           2   0.1557895592399E+02 0.1557895592399E+02 0.4332868019305E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1181352629297E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.3388710105266E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.4114544524905E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1279479977052E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    55.31
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 36868.12
+ Mop/s/process   =                  2304.26
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   32 processors
+     but was compiled for    25
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    32
+
+ Error: couldn't determine proper proc_grid for nprocs=    32
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1051773539834E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.1783897671908E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1242290892342E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.4149261727131E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.2631805471794E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1140228426133E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1837659645572E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1473352219681E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1870247511320E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    16.60
+ Total processes =                       64
+ Compiled procs  =                       64
+ Mop/s total     =                122811.07
+ Mop/s/process   =                  1918.92
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on  128 processors
+     but was compiled for   121
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:   128
+
+ Error: couldn't determine proper proc_grid for nprocs=   128
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on  192 processors
+     but was compiled for   169
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:   192
+
+ Error: couldn't determine proper proc_grid for nprocs=   192
+32
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on   32 processors
+     but was compiled for    25
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    32
+
+ Error: couldn't determine proper proc_grid for nprocs=    32
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1051773539834E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.1783897671908E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1242290892342E-14
+           4   0.2191943438578E+04 0.2191943438578E+04 0.4149261727131E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1634329962061E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.2631805471794E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1140228426133E-14
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1837659645572E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1473352219681E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1870247511320E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    15.01
+ Total processes =                       64
+ Compiled procs  =                       64
+ Mop/s total     =                135816.79
+ Mop/s/process   =                  2122.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on  128 processors
+     but was compiled for   121
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:   128
+
+ Error: couldn't determine proper proc_grid for nprocs=   128
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:   256
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.3505911799446E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.7645275736749E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.0000000000000E+00
+           4   0.2191943438578E+04 0.2191943438578E+04 0.0000000000000E+00
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1225747471546E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.1315902735897E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.9121827409064E-15
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1575136839062E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.4420056659042E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.1870247511320E-14
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.6397399885262E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                     5.18
+ Total processes =                      256
+ Compiled procs  =                      256
+ Mop/s total     =                393693.11
+ Mop/s/process   =                  1537.86
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Mar 2012
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O3  -mcmodel=large
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on  384 processors
+     but was compiled for   361
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:   384
+
+ Error: couldn't determine proper proc_grid for nprocs=   384
+----------------------------------------
+Begin Batch Job Epilogue Fri Mar  9 01:26:11 EST 2012
+Job ID:           63481.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         lu.C
+Session:          9299
+Limits:           neednodes=32:ppn=12,nodes=32:ppn=12,walltime=02:00:00
+Resources:        cput=01:54:32,mem=5325916kb,vmem=176212868kb,walltime=00:18:03
+Queue:            normal
+Account:          
+End Batch Job Epilogue Fri Mar  9 01:26:31 EST 2012
+----------------------------------------
