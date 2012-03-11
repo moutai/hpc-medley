@@ -1,7 +1,7 @@
 import sys
 
 def sethosts(numhosts):
-	f = open ("computehosts.txt","w")
+	f = open ("parsedhostfile.txt","w")
 	#numhosts=sys.argv[1]
 	print numhosts
 	for i in range(1,numhosts+1):
@@ -11,7 +11,7 @@ def sethosts(numhosts):
 
 
 
-f = open ("computehosts.txt","w")
+f = open ("parsedhostfile.txt","w")
 numhosts=sys.argv[1]
 print numhosts
 for i in range(1,int(numhosts)+1):

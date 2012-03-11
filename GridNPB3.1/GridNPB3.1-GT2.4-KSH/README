@@ -101,7 +101,7 @@ file in subdirectory GridNPB3.1-SHF-SER.
    rename it NODE.sh.hostname.scratch, and to create in the same locations
    a subdirectory named NGB.hostname.scratch, where "hostname" is the name 
    of the host from which the benchmark was launched (without domain name 
-   information, i.e. output of "hostname -s"). All needed executables should 
+   information, i.e. output of i"hostname -s"). All needed executables should 
    be copied to NGB.hostname.scratch. 
 
    Benchmark tasks may time out. Some default timeout values are provided, 
@@ -116,3 +116,6 @@ file in subdirectory GridNPB3.1-SHF-SER.
    files on the launch host and from the directories specified on the remote 
    hosts, if desired. Leftover temporary files will not interfere with 
    subsequent benchmark runs, but may clog the file system.
+
+
+

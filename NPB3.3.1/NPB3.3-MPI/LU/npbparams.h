@@ -26,7 +26,7 @@ c number of iterations and how often to print the norm
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='07 Mar 2012')
+        parameter (compiletime='10 Mar 2012')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
