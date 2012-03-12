@@ -10,6 +10,7 @@
 cd $PBS_O_WORKDIR/hpc-medley/NPB3.3.1/NPB3.3-MPI/bin
 cat $PBS_NODEFILE >> nodefile.txt
 #parse nodefile.txt
+
 mpirun -npernode 9 -hostfile nodefile.txt ./sp.C.9  | tee 9.sp.C.9-results.txt;
 
 
