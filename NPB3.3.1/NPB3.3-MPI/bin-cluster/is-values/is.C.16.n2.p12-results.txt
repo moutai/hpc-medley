@@ -1,0 +1,12 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Number of processes:     24
+
+ ERROR: compiled for 16 processes
+ Number of active processes: 24
+ Exiting program!
+

@@ -1,0 +1,11 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+     Warning: program is running on  192 processors
+     but was compiled for   169
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:   192
+
+ Error: couldn't determine proper proc_grid for nprocs=   192

@@ -1,0 +1,10 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  512x 512x 512  (class C)
+ Iterations:   20
+ WARNING: compiled for     16 processes 
+ Number of active processes:     24
+

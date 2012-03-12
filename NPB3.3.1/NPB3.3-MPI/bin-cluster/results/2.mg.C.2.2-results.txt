@@ -1,0 +1,9 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  512x 512x 512  (class C)
+ Iterations:   20
+ Number of processes:      2
+2 total processes killed (some possibly by mpirun during cleanup)
