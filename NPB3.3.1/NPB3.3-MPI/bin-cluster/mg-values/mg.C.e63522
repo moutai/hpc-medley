@@ -1,8 +1,0 @@
-=>> PBS: job killed: walltime 7201 exceeded limit 7200
-mpirun: killing job...
-
---------------------------------------------------------------------------
-mpirun noticed that process rank 0 with PID 13389 on node w072 exited on signal 0 (Unknown signal 0).
---------------------------------------------------------------------------
-mpirun: clean termination accomplished
-

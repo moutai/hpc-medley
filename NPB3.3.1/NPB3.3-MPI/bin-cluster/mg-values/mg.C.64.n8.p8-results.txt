@@ -1,6 +1,0 @@
-
-
- NAS Parallel Benchmarks 3.3 -- MG Benchmark
-
- No input file. Using compiled defaults 
-2 total processes killed (some possibly by mpirun during cleanup)
