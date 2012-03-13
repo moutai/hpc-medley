@@ -1,4 +1,4 @@
-c NPROCS = 32 CLASS = C
+c NPROCS = 25 CLASS = D
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -6,39 +6,39 @@ c  It sets the number of processors and the class of the NPB
 c  in this directory. Do not modify it by hand.
 c  
         character class
-        parameter (class='C')
+        parameter (class='D')
         integer num_procs
-        parameter (num_procs=32)
+        parameter (num_procs=25)
         integer x_zones, y_zones
-        parameter (x_zones=16, y_zones=16)
+        parameter (x_zones=32, y_zones=32)
         integer gx_size, gy_size, gz_size, niter_default
-        parameter (gx_size=480, gy_size=320, gz_size=28)
-        parameter (niter_default=400)
+        parameter (gx_size=1632, gy_size=1216, gz_size=34)
+        parameter (niter_default=500)
         integer problem_size
-        parameter (problem_size = 30)
+        parameter (problem_size = 51)
         integer max_xysize, max_xybcsize
-        parameter (max_xysize=4960, max_xybcsize=3760)
+        parameter (max_xysize=79458, max_xybcsize=34850)
         integer max_numzones
-        parameter (max_numzones=8)
+        parameter (max_numzones=41)
         double precision dt_default, ratio
-        parameter (dt_default = 0.00067d0, ratio = 1.d0)
+        parameter (dt_default = 0.00030d0, ratio = 1.d0)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
-        parameter (compiletime='12 Mar 2012')
+        parameter (compiletime='13 Mar 2012')
         character npbversion*3
         parameter (npbversion='3.1')
-        character cs1*6
-        parameter (cs1='(none)')
-        character cs2*9
-        parameter (cs2='$(MPIF77)')
-        character cs3*6
-        parameter (cs3='(none)')
+        character cs1*7
+        parameter (cs1='mpif77 ')
+        character cs2*6
+        parameter (cs2='$(F77)')
+        character cs3*5
+        parameter (cs3='-lmpi')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*19
-        parameter (cs5='-O3  -mcmodel=large')
-        character cs6*3
-        parameter (cs6='-O3')
+        character cs5*27
+        parameter (cs5='-O3 --openmp -mcmodel=large')
+        character cs6*27
+        parameter (cs6='-O3 --openmp -mcmodel=large')
         character cs7*6
         parameter (cs7='randi8')

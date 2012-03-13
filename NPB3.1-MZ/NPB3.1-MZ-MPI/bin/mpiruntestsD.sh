@@ -1,87 +1,293 @@
-python sethostsfile.py 9;
+#!/bin/sh
+#PBS -l walltime=03:00:00
+#PBS -N MZ.CD
+#PBS -q normal
+#PBS -l nodes=25:ppn=12
+#PBS -m bea
+#PBS -M moussa.taifi@temple.edu
+#PBS -o MZ.CD.log
+#PBS -o MZ.CD.err
+
+cd $PBS_O_WORKDIR
+cat $PBS_NODEFILE > nodefile.txt
+python parsenodefile.py nodefile.txt 
+
+
+
+#########################
+#SP C
+
+python setnodefile.py 4
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./sp-mz.D.9  | tee 9.sp-mz.D.9.1-results.txt;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./sp-mz.D.9  | tee 9.sp-mz.D.9.2-results.txt;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./sp-mz.D.9  | tee 9.sp-mz.D.9.4-results.txt;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.12-results.txt ;
 
-python sethostsfile.py 16;
+
+python setnodefile.py 9
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./sp-mz.D.16 | tee 16.sp-mz.D.16.1-results.txt;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./sp-mz.D.16 | tee 16.sp-mz.D.16.2-results.txt;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./sp-mz.D.16 | tee 16.sp-mz.D.16.4-results.txt;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.12-results.txt ;
 
 
-python sethostsfile.py 25;
+python setnodefile.py 16
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./sp-mz.D.25 | tee 25.sp-mz.D.25.1-results.txt ;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./sp-mz.D.25 | tee 25.sp-mz.D.25.2-results.txt ;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./sp-mz.D.25 | tee 25.sp-mz.D.25.4-results.txt ;
-#
-####
+mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.12-results.txt ;
 
 
-python sethostsfile.py 9;
+#########################
+#BT C
+
+
+
+
+python setnodefile.py 4
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./bt-mz.D.9  | tee 9.bt-mz.D.9.1-results.txt;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./bt-mz.D.9  | tee 9.bt-mz.D.9.2-results.txt;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./bt-mz.D.9  | tee 9.bt-mz.D.9.4-results.txt;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.12-results.txt ;
 
-python sethostsfile.py 16;
+
+python setnodefile.py 9
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./bt-mz.D.16 | tee 16.bt-mz.D.16.1-results.txt;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./bt-mz.D.16 | tee 16.bt-mz.D.16.2-results.txt;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./bt-mz.D.16 | tee 16.bt-mz.D.16.4-results.txt;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.12-results.txt ;
 
 
-
-python sethostsfile.py 25;
+python setnodefile.py 16
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./bt-mz.D.25 | tee 25.bt-mz.D.25.1-results.txt ;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./bt-mz.D.25 | tee 25.bt-mz.D.25.2-results.txt ;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./bt-mz.D.25 | tee 25.bt-mz.D.25.4-results.txt ;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.12-results.txt ;
 
 
 
-#####
+#########################
+#LU C
 
 
-
-python sethostsfile.py 9;
+python setnodefile.py 4
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./lu-mz.D.9  | tee 9.lu-mz.D.9.1-results.txt;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./lu-mz.D.9  | tee 9.lu-mz.D.9.2-results.txt;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./lu-mz.D.9  | tee 9.lu-mz.D.9.4-results.txt;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.12-results.txt ;
 
-python sethostsfile.py 16;
+
+python setnodefile.py 9
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./lu-mz.D.16 | tee 16.lu-mz.D.16.1-results.txt;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./lu-mz.D.16 | tee 16.lu-mz.D.16.2-results.txt;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./lu-mz.D.16 | tee 16.lu-mz.D.16.4-results.txt;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.12-results.txt ;
 
 
-
-python sethostsfile.py 25;
+python setnodefile.py 16
 export OMP_NUM_THREADS=1;
-mpirun -hostfile computehosts.txt ./lu-mz.D.25 | tee 25.lu-mz.D.25.1-results.txt ;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.16 | tee lu-mz-values/lu-mz.C.16.1-results.txt ;
 export OMP_NUM_THREADS=2;
-mpirun -hostfile computehosts.txt ./lu-mz.D.25 | tee 25.lu-mz.D.25.2-results.txt ;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.16 | tee lu-mz-values/lu-mz.C.16.2-results.txt ;
 export OMP_NUM_THREADS=4;
-mpirun -hostfile computehosts.txt ./lu-mz.D.25 | tee 25.lu-mz.D.25.4-results.txt ;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.16 | tee lu-mz-values/lu-mz.C.16.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.16 | tee lu-mz-values/lu-mz.C.16.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./lu-mz.C.16 | tee lu-mz-values/lu-mz.C.16.12-results.txt ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#########################
+#SP D
+
+python setnodefile.py 25
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.25 | tee sp-mz-values/sp-mz.D.25.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.25 | tee sp-mz-values/sp-mz.D.25.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.25 | tee sp-mz-values/sp-mz.D.25.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.25 | tee sp-mz-values/sp-mz.D.25.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.25 | tee sp-mz-values/sp-mz.D.25.12-results.txt ;
+
+
+python setnodefile.py 9
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.9 | tee sp-mz-values/sp-mz.D.9.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.9 | tee sp-mz-values/sp-mz.D.9.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.9 | tee sp-mz-values/sp-mz.D.9.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.9 | tee sp-mz-values/sp-mz.D.9.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.9 | tee sp-mz-values/sp-mz.D.9.12-results.txt ;
+
+
+python setnodefile.py 16
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.16 | tee sp-mz-values/sp-mz.D.16.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.16 | tee sp-mz-values/sp-mz.D.16.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.16 | tee sp-mz-values/sp-mz.D.16.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.16 | tee sp-mz-values/sp-mz.D.16.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./sp-mz.D.16 | tee sp-mz-values/sp-mz.D.16.12-results.txt ;
+
+
+#########################
+#BT D
+
+
+
+
+python setnodefile.py 25
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.25 | tee bt-mz-values/bt-mz.D.25.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.25 | tee bt-mz-values/bt-mz.D.25.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.25 | tee bt-mz-values/bt-mz.D.25.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.25 | tee bt-mz-values/bt-mz.D.25.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.25 | tee bt-mz-values/bt-mz.D.25.12-results.txt ;
+
+
+python setnodefile.py 9
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.9 | tee bt-mz-values/bt-mz.D.9.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.9 | tee bt-mz-values/bt-mz.D.9.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.9 | tee bt-mz-values/bt-mz.D.9.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.9 | tee bt-mz-values/bt-mz.D.9.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.9 | tee bt-mz-values/bt-mz.D.9.12-results.txt ;
+
+
+python setnodefile.py 16
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.16 | tee bt-mz-values/bt-mz.D.16.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.16 | tee bt-mz-values/bt-mz.D.16.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.16 | tee bt-mz-values/bt-mz.D.16.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.16 | tee bt-mz-values/bt-mz.D.16.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./bt-mz.D.16 | tee bt-mz-values/bt-mz.D.16.12-results.txt ;
+
+
+
+#########################
+#LU D
+
+
+python setnodefile.py 25
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.25 | tee lu-mz-values/lu-mz.D.25.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.25 | tee lu-mz-values/lu-mz.D.25.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.25 | tee lu-mz-values/lu-mz.D.25.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.25 | tee lu-mz-values/lu-mz.D.25.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.25 | tee lu-mz-values/lu-mz.D.25.12-results.txt ;
+
+
+python setnodefile.py 9
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.9 | tee lu-mz-values/lu-mz.D.9.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.9 | tee lu-mz-values/lu-mz.D.9.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.9 | tee lu-mz-values/lu-mz.D.9.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.9 | tee lu-mz-values/lu-mz.D.9.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.9 | tee lu-mz-values/lu-mz.D.9.12-results.txt ;
+
+
+python setnodefile.py 16
+export OMP_NUM_THREADS=1;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.16 | tee lu-mz-values/lu-mz.D.16.1-results.txt ;
+export OMP_NUM_THREADS=2;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.16 | tee lu-mz-values/lu-mz.D.16.2-results.txt ;
+export OMP_NUM_THREADS=4;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.16 | tee lu-mz-values/lu-mz.D.16.4-results.txt ;
+export OMP_NUM_THREADS=8;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.16 | tee lu-mz-values/lu-mz.D.16.8-results.txt ;
+export OMP_NUM_THREADS=12;
+mpirun -hostfile myhostfile.txt ./lu-mz.D.16 | tee lu-mz-values/lu-mz.D.16.12-results.txt ;
+
+
 
 

@@ -1,0 +1,1215 @@
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08038] [[23324,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08038] [[23324,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08038] [[23324,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08038] [[23324,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08038] [[23324,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08040] [[23314,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08040] [[23314,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08040] [[23314,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08040] [[23314,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08040] [[23314,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08042] [[23312,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08042] [[23312,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08042] [[23312,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08042] [[23312,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08042] [[23312,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08044] [[23318,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08044] [[23318,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08044] [[23318,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08044] [[23318,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08044] [[23318,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08046] [[23316,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08046] [[23316,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08046] [[23316,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08046] [[23316,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08046] [[23316,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08049] [[23307,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08049] [[23307,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08049] [[23307,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08049] [[23307,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08049] [[23307,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08051] [[23305,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08051] [[23305,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08051] [[23305,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08051] [[23305,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08051] [[23305,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08053] [[23311,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08053] [[23311,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08053] [[23311,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08053] [[23311,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08053] [[23311,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08055] [[23309,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08055] [[23309,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08055] [[23309,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08055] [[23309,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08055] [[23309,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08057] [[23299,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08057] [[23299,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08057] [[23299,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08057] [[23299,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08057] [[23299,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08060] [[23302,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08060] [[23302,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08060] [[23302,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08060] [[23302,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08060] [[23302,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08062] [[23300,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08062] [[23300,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08062] [[23300,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08062] [[23300,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08062] [[23300,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08064] [[23546,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08064] [[23546,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08064] [[23546,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08064] [[23546,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08064] [[23546,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08066] [[23544,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08066] [[23544,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08066] [[23544,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08066] [[23544,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08066] [[23544,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08068] [[23550,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08068] [[23550,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08068] [[23550,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08068] [[23550,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08068] [[23550,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08071] [[23549,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08071] [[23549,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08071] [[23549,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08071] [[23549,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08071] [[23549,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08073] [[23539,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08073] [[23539,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08073] [[23539,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08073] [[23539,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08073] [[23539,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08075] [[23537,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08075] [[23537,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08075] [[23537,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08075] [[23537,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08075] [[23537,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08077] [[23543,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08077] [[23543,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08077] [[23543,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08077] [[23543,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08077] [[23543,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08079] [[23541,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08079] [[23541,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08079] [[23541,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08079] [[23541,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08079] [[23541,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08082] [[23528,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08082] [[23528,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08082] [[23528,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08082] [[23528,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08082] [[23528,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08084] [[23534,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08084] [[23534,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08084] [[23534,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08084] [[23534,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08084] [[23534,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08086] [[23532,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08086] [[23532,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08086] [[23532,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08086] [[23532,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08086] [[23532,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08088] [[23522,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08088] [[23522,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08088] [[23522,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08088] [[23522,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08088] [[23522,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08090] [[23520,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08090] [[23520,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08090] [[23520,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08090] [[23520,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08090] [[23520,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08093] [[23527,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08093] [[23527,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08093] [[23527,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08093] [[23527,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08093] [[23527,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08095] [[23525,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08095] [[23525,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08095] [[23525,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08095] [[23525,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08095] [[23525,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08097] [[23515,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08097] [[23515,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08097] [[23515,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08097] [[23515,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08097] [[23515,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08099] [[23513,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08099] [[23513,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08099] [[23513,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08099] [[23513,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08099] [[23513,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08101] [[23519,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08101] [[23519,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08101] [[23519,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08101] [[23519,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08101] [[23519,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08104] [[23506,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08104] [[23506,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08104] [[23506,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08104] [[23506,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08104] [[23506,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08106] [[23504,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08106] [[23504,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08106] [[23504,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08106] [[23504,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08106] [[23504,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08108] [[23510,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08108] [[23510,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08108] [[23510,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08108] [[23510,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08108] [[23510,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08110] [[23508,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08110] [[23508,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08110] [[23508,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08110] [[23508,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08110] [[23508,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08112] [[23498,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08112] [[23498,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08112] [[23498,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08112] [[23498,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08112] [[23498,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08115] [[23497,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08115] [[23497,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08115] [[23497,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08115] [[23497,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08115] [[23497,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08117] [[23503,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08117] [[23503,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08117] [[23503,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08117] [[23503,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08117] [[23503,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08119] [[23501,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08119] [[23501,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08119] [[23501,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08119] [[23501,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08119] [[23501,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08121] [[23491,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08121] [[23491,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08121] [[23491,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08121] [[23491,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08121] [[23491,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08123] [[23489,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08123] [[23489,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08123] [[23489,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08123] [[23489,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08123] [[23489,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08126] [[23492,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08126] [[23492,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08126] [[23492,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08126] [[23492,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08126] [[23492,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08128] [[23482,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08128] [[23482,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08128] [[23482,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08128] [[23482,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08128] [[23482,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08130] [[23480,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08130] [[23480,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08130] [[23480,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08130] [[23480,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08130] [[23480,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08132] [[23486,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08132] [[23486,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08132] [[23486,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08132] [[23486,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08132] [[23486,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    computehosts.txt
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------
+[w067:08134] [[23484,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_support_fns.c at line 108
+[w067:08134] [[23484,0],0] ORTE_ERROR_LOG: Not found in file rmaps_rr.c at line 82
+[w067:08134] [[23484,0],0] ORTE_ERROR_LOG: Not found in file base/rmaps_base_map_job.c at line 88
+[w067:08134] [[23484,0],0] ORTE_ERROR_LOG: Not found in file base/plm_base_launch_support.c at line 77
+[w067:08134] [[23484,0],0] ORTE_ERROR_LOG: Not found in file plm_tm_module.c at line 167
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+

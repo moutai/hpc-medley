@@ -21,7 +21,7 @@ include ../sys/make.common
 # accidentally deleted it. Instead, make the dependency on npbparams.h
 # explicit in all the lines below (even though dependence is indirect). 
 
-# header.h: npbparams.h
+header.h: npbparams.h
 
 ${PROGRAM}: config ${OBJS}
 	${FLINK} ${FLINKFLAGS} -o ${PROGRAM} ${OBJS} ${F_LIB}

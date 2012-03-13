@@ -1,0 +1,121 @@
+----------------------------------------
+Begin Batch Job Prologue Tue Mar 13 15:21:46 EST 2012
+Job ID:           64735.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         MZ.C
+Resources List:   neednodes=16:ppn=12,nodes=16:ppn=12,walltime=03:00:00
+Queue:            normal
+Account:          
+Nodes:            w041 w045 w046 w054 w056 w057 w058 w059 w060 w061 w062 w063 w064 w065 w066 w067 
+End Batch Job Prologue Tue Mar 13 15:21:47 EST 2012
+----------------------------------------
+4
+1
+2
+3
+4
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+16
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+4
+1
+2
+3
+4
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+16
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+4
+1
+2
+3
+4
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+16
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+----------------------------------------
+Begin Batch Job Epilogue Tue Mar 13 15:21:49 EST 2012
+Job ID:           64735.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         MZ.C
+Session:          7963
+Limits:           neednodes=16:ppn=12,nodes=16:ppn=12,walltime=03:00:00
+Resources:        cput=00:00:00,mem=748kb,vmem=9440kb,walltime=00:00:02
+Queue:            normal
+Account:          
+End Batch Job Epilogue Tue Mar 13 15:22:09 EST 2012
+----------------------------------------

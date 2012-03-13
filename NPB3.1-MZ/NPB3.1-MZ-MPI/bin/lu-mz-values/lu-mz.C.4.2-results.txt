@@ -1,0 +1,57 @@
+
+
+ NAS Parallel Benchmarks (NPB3.1-MZ-MPI) - LU-MZ MPI+OpenMP Benchmark
+
+ Number of zones:  4  x   4
+ Iterations: 250    dt:   2.000000
+ Number of active processes:    4
+
+ Use the default load factors with threads
+  proc    0  num_threads =   2  group =   0
+  proc    1  num_threads =   2  group =   0
+  proc    2  num_threads =   2  group =   0
+  proc    3  num_threads =   2  group =   0
+ Total number of threads:      8
+
+ Zone sizes:
+   1:    120 x   80 x   28
+   2:    120 x   80 x   28
+   3:    120 x   80 x   28
+   4:    120 x   80 x   28
+   5:    120 x   80 x   28
+   6:    120 x   80 x   28
+   7:    120 x   80 x   28
+   8:    120 x   80 x   28
+   9:    120 x   80 x   28
+  10:    120 x   80 x   28
+  11:    120 x   80 x   28
+  12:    120 x   80 x   28
+  13:    120 x   80 x   28
+  14:    120 x   80 x   28
+  15:    120 x   80 x   28
+  16:    120 x   80 x   28
+ Zone-process mapping:
+ proc nzones zone_size nthreads size_per_thread
+   0      4    1075200      2       537600
+   zone    1    268800
+   zone    5    268800
+   zone    9    268800
+   zone   13    268800
+   1      4    1075200      2       537600
+   zone    2    268800
+   zone    6    268800
+   zone   10    268800
+   zone   14    268800
+   2      4    1075200      2       537600
+   zone    3    268800
+   zone    7    268800
+   zone   11    268800
+   zone   15    268800
+   3      4    1075200      2       537600
+   zone    4    268800
+   zone    8    268800
+   zone   12    268800
+   zone   16    268800
+
+ Calculated speedup =     8.00
+
