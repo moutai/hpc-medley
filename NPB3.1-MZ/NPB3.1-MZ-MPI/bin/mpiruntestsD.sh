@@ -13,11 +13,13 @@ cat $PBS_NODEFILE > nodefile.txt
 python parsenodefile.py nodefile.txt 
 
 
+pwd
+
 
 #########################
 #SP C
 
-python setnodefile.py 4
+python setnodefile.py 4;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -30,7 +32,7 @@ export OMP_NUM_THREADS=12;
 mpirun -hostfile myhostfile.txt ./sp-mz.C.4 | tee sp-mz-values/sp-mz.C.4.12-results.txt ;
 
 
-python setnodefile.py 9
+python setnodefile.py 9;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -43,7 +45,7 @@ export OMP_NUM_THREADS=12;
 mpirun -hostfile myhostfile.txt ./sp-mz.C.9 | tee sp-mz-values/sp-mz.C.9.12-results.txt ;
 
 
-python setnodefile.py 16
+python setnodefile.py 16;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -62,7 +64,7 @@ mpirun -hostfile myhostfile.txt ./sp-mz.C.16 | tee sp-mz-values/sp-mz.C.16.12-re
 
 
 
-python setnodefile.py 4
+python setnodefile.py 4;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -75,7 +77,7 @@ export OMP_NUM_THREADS=12;
 mpirun -hostfile myhostfile.txt ./bt-mz.C.4 | tee bt-mz-values/bt-mz.C.4.12-results.txt ;
 
 
-python setnodefile.py 9
+python setnodefile.py 9;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -88,7 +90,7 @@ export OMP_NUM_THREADS=12;
 mpirun -hostfile myhostfile.txt ./bt-mz.C.9 | tee bt-mz-values/bt-mz.C.9.12-results.txt ;
 
 
-python setnodefile.py 16
+python setnodefile.py 16;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -106,7 +108,7 @@ mpirun -hostfile myhostfile.txt ./bt-mz.C.16 | tee bt-mz-values/bt-mz.C.16.12-re
 #LU C
 
 
-python setnodefile.py 4
+python setnodefile.py 4;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -119,7 +121,7 @@ export OMP_NUM_THREADS=12;
 mpirun -hostfile myhostfile.txt ./lu-mz.C.4 | tee lu-mz-values/lu-mz.C.4.12-results.txt ;
 
 
-python setnodefile.py 9
+python setnodefile.py 9;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.1-results.txt ;
 export OMP_NUM_THREADS=2;
@@ -132,7 +134,7 @@ export OMP_NUM_THREADS=12;
 mpirun -hostfile myhostfile.txt ./lu-mz.C.9 | tee lu-mz-values/lu-mz.C.9.12-results.txt ;
 
 
-python setnodefile.py 16
+python setnodefile.py 16;
 export OMP_NUM_THREADS=1;
 mpirun -hostfile myhostfile.txt ./lu-mz.C.16 | tee lu-mz-values/lu-mz.C.16.1-results.txt ;
 export OMP_NUM_THREADS=2;

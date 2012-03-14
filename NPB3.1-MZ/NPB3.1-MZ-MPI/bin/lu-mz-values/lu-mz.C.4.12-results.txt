@@ -55,3 +55,7 @@
 
  Calculated speedup =    48.00
 
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60

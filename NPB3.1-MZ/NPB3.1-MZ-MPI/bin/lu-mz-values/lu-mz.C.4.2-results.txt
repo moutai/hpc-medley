@@ -55,3 +55,67 @@
 
  Calculated speedup =     8.00
 
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.4108743427233E+05 0.4108743427233E+05 0.9633409854412E-13
+           2   0.3439004802235E+04 0.3439004802235E+04 0.8502533826936E-13
+           3   0.9961331392486E+04 0.9961331392486E+04 0.2903420273538E-13
+           4   0.8321426758084E+04 0.8321426758084E+04 0.1836164810913E-13
+           5   0.7463792419218E+05 0.7463792419218E+05 0.2300607922222E-13
+ Comparison of RMS-norms of solution error
+           1   0.3429276307955E+04 0.3429276307955E+04 0.1377790691508E-12
+           2   0.2336680861825E+03 0.2336680861825E+03 0.7115520261419E-13
+           3   0.8216363109621E+03 0.8216363109621E+03 0.1300643922774E-13
+           4   0.7143809828225E+03 0.7143809828225E+03 0.1289036813252E-13
+           5   0.7057470798773E+04 0.7057470798773E+04 0.3505257987397E-13
+ Comparison of surface integral
+               0.1125826349653E+05 0.1125826349653E+05 0.1764336417676E-12
+ Verification Successful
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        C
+ Size            =             480x 320x 28
+ Iterations      =                      250
+ Time in seconds =                  1178.23
+ Total processes =                        4
+ Total threads   =                        8
+ Mop/s total     =                  1630.00
+ Mop/s/thread    =                   203.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.1
+ Compile date    =              14 Mar 2012
+
+ Compile options:
+    F77          = mpif77 
+    FLINK        = $(F77)
+    F_LIB        = -lmpi
+    F_INC        = (none)
+    FFLAGS       = -O3 --openmp 
+    FLINKFLAGS   = -O3 --openmp 
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

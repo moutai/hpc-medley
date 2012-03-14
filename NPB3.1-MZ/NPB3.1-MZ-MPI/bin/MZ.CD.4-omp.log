@@ -1,0 +1,30 @@
+----------------------------------------
+Begin Batch Job Prologue Wed Mar 14 01:45:46 EST 2012
+Job ID:           64820.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         MZ.CD.-omp.4
+Resources List:   neednodes=4:ppn=12,nodes=4:ppn=12,walltime=01:00:00
+Queue:            normal
+Account:          
+Nodes:            w048 w049 w050 w051 
+End Batch Job Prologue Wed Mar 14 01:45:47 EST 2012
+----------------------------------------
+4
+1
+2
+3
+4
+----------------------------------------
+Begin Batch Job Epilogue Wed Mar 14 01:45:48 EST 2012
+Job ID:           64820.owlsnest1.nfs
+Username:         tub51722
+Group:            stdcis
+Job Name:         MZ.CD.-omp.4
+Session:          24164
+Limits:           neednodes=4:ppn=12,nodes=4:ppn=12,walltime=01:00:00
+Resources:        cput=00:00:00,mem=748kb,vmem=9440kb,walltime=00:00:01
+Queue:            normal
+Account:          
+End Batch Job Epilogue Wed Mar 14 01:46:08 EST 2012
+----------------------------------------

@@ -1,0 +1,51 @@
+[w022:26193] *** Process received signal ***
+[w022:26193] Signal: Segmentation fault (11)
+[w022:26193] Signal code: Address not mapped (1)
+[w022:26193] Failing at address: 0x7fffc1e0c918
+[w023:01293] *** Process received signal ***
+[w023:01293] Signal: Segmentation fault (11)
+[w023:01293] Signal code: Address not mapped (1)
+[w023:01293] Failing at address: 0x7fffc1e0c918
+[w020:07257] *** Process received signal ***
+[w020:07257] Signal: Segmentation fault (11)
+[w020:07257] Signal code: Address not mapped (1)
+[w020:07257] Failing at address: 0x7fffc1e0c918
+[w022:26193] [ 0] /lib64/libpthread.so.0(+0xf4a0) [0x7fffbfa874a0]
+[w022:26193] [ 1] ./sp-mz.C.4() [0x405d5b]
+[w022:26193] [ 2] ./sp-mz.C.4(exact_rhs_+0x81) [0x40a3e1]
+[w022:26193] [ 3] ./sp-mz.C.4(MAIN__+0x314) [0x4021d4]
+[w022:26193] [ 4] ./sp-mz.C.4(main+0x2a) [0x4206ba]
+[w022:26193] [ 5] /lib64/libc.so.6(__libc_start_main+0xfd) [0x7fffbf6f5cdd]
+[w022:26193] [ 6] ./sp-mz.C.4() [0x401df9]
+[w022:26193] *** End of error message ***
+[w023:01293] [ 0] /lib64/libpthread.so.0(+0xf4a0) [0x7fffbfa874a0]
+[w023:01293] [ 1] ./sp-mz.C.4() [0x405d5b]
+[w023:01293] [ 2] ./sp-mz.C.4(exact_rhs_+0x81) [0x40a3e1]
+[w023:01293] [ 3] ./sp-mz.C.4(MAIN__+0x314) [0x4021d4]
+[w023:01293] [ 4] ./sp-mz.C.4(main+0x2a) [0x4206ba]
+[w023:01293] [ 5] /lib64/libc.so.6(__libc_start_main+0xfd) [0x7fffbf6f5cdd]
+[w023:01293] [ 6] ./sp-mz.C.4() [0x401df9]
+[w023:01293] *** End of error message ***
+[w020:07257] [ 0] /lib64/libpthread.so.0(+0xf4a0) [0x7fffbfa874a0]
+[w020:07257] [ 1] ./sp-mz.C.4() [0x405d5b]
+[w020:07257] [ 2] ./sp-mz.C.4(exact_rhs_+0x81) [0x40a3e1]
+[w020:07257] [ 3] ./sp-mz.C.4(MAIN__+0x314) [0x4021d4]
+[w020:07257] [ 4] ./sp-mz.C.4(main+0x2a) [0x4206ba]
+[w020:07257] [ 5] /lib64/libc.so.6(__libc_start_main+0xfd) [0x7fffbf6f5cdd]
+[w020:07257] [ 6] ./sp-mz.C.4() [0x401df9]
+[w020:07257] *** End of error message ***
+[w025:08974] *** Process received signal ***
+[w025:08974] Signal: Segmentation fault (11)
+[w025:08974] Signal code: Address not mapped (1)
+[w025:08974] Failing at address: 0x7fffc1e0c918
+[w025:08974] [ 0] /lib64/libpthread.so.0(+0xf4a0) [0x7fffbfa874a0]
+[w025:08974] [ 1] ./sp-mz.C.4() [0x405d5b]
+[w025:08974] [ 2] ./sp-mz.C.4(exact_rhs_+0x81) [0x40a3e1]
+[w025:08974] [ 3] ./sp-mz.C.4(MAIN__+0x314) [0x4021d4]
+[w025:08974] [ 4] ./sp-mz.C.4(main+0x2a) [0x4206ba]
+[w025:08974] [ 5] /lib64/libc.so.6(__libc_start_main+0xfd) [0x7fffbf6f5cdd]
+[w025:08974] [ 6] ./sp-mz.C.4() [0x401df9]
+[w025:08974] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 7257 on node w020 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

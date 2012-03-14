@@ -25,7 +25,7 @@ c
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
-        parameter (compiletime='13 Mar 2012')
+        parameter (compiletime='14 Mar 2012')
         character npbversion*3
         parameter (npbversion='3.1')
         character cs1*7
@@ -36,9 +36,9 @@ c
         parameter (cs3='-lmpi')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*27
-        parameter (cs5='-O3 --openmp -mcmodel=large')
-        character cs6*27
-        parameter (cs6='-O3 --openmp -mcmodel=large')
+        character cs5*13
+        parameter (cs5='-O3 --openmp ')
+        character cs6*13
+        parameter (cs6='-O3 --openmp ')
         character cs7*6
         parameter (cs7='randi8')
