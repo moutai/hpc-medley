@@ -80,10 +80,10 @@
            5   0.7463792419218E+05 0.7463792419218E+05 0.1676714248399E-13
  Comparison of RMS-norms of solution error
            1   0.3429276307955E+04 0.3429276307955E+04 0.1430833644021E-12
-           2   0.2336680861825E+03 0.2336680861825E+03 0.7772337516319E-13
+           2   0.2336680861825E+03 0.2336680861825E+03 0.7784500798818E-13
            3   0.8216363109621E+03 0.8216363109621E+03 0.1231460735392E-13
            4   0.7143809828225E+03 0.7143809828225E+03 0.1225380674326E-13
-           5   0.7057470798773E+04 0.7057470798773E+04 0.3221744473711E-13
+           5   0.7057470798773E+04 0.7057470798773E+04 0.3234631451606E-13
  Comparison of surface integral
                0.1125826349653E+05 0.1125826349653E+05 0.1759489339606E-12
  Verification Successful
@@ -93,11 +93,11 @@
  Class           =                        C
  Size            =             480x 320x 28
  Iterations      =                      250
- Time in seconds =                  2828.71
+ Time in seconds =                  2866.01
  Total processes =                        4
  Total threads   =                       32
- Mop/s total     =                   678.94
- Mop/s/thread    =                    21.22
+ Mop/s total     =                   670.10
+ Mop/s/thread    =                    20.94
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.1

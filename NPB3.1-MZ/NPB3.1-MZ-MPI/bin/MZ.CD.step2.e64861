@@ -1,0 +1,1430 @@
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.C.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./sp-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./bt-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.25
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.9
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+
+--------------------------------------------------------------------------
+There are no allocated resources for the application 
+  ./lu-mz.D.16
+that match the requested mapping:
+  myhostfile.txt
+
+Verify that you have mapped the allocated resources properly using the 
+--host or --hostfile specification.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+A daemon (pid unknown) died unexpectedly on signal 1  while attempting to
+launch so we are aborting.
+
+There may be more information reported by the environment (see above).
+
+This may be because the daemon was unable to find all the needed shared
+libraries on the remote node. You may set your LD_LIBRARY_PATH to have the
+location of the shared libraries on the remote nodes and this will
+automatically be forwarded to the remote nodes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+

@@ -587,11 +587,11 @@
  Class           =                        C
  Size            =             480x 320x 28
  Iterations      =                      400
- Time in seconds =                    63.09
+ Time in seconds =                    62.57
  Total processes =                        9
  Total threads   =                       36
- Mop/s total     =                 19411.36
- Mop/s/thread    =                   539.20
+ Mop/s total     =                 19572.85
+ Mop/s/thread    =                   543.69
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.1

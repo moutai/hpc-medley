@@ -576,7 +576,7 @@
            5 0.1278941567976E+06 0.1278941567976E+06 0.3304198008831E-12
  Comparison of RMS-norms of solution error
            1 0.6414069213021E+04 0.6414069213021E+04 0.3232967794973E-13
-           2 0.4069468353404E+03 0.4069468353404E+03 0.6593021832903E-13
+           2 0.4069468353404E+03 0.4069468353404E+03 0.6579053566308E-13
            3 0.1585311908719E+04 0.1585311908719E+04 0.1705325612046E-12
            4 0.1270243185759E+04 0.1270243185759E+04 0.1408730899563E-12
            5 0.1441398372869E+05 0.1441398372869E+05 0.3028707851127E-14
@@ -587,11 +587,11 @@
  Class           =                        C
  Size            =             480x 320x 28
  Iterations      =                      400
- Time in seconds =                    66.32
+ Time in seconds =                    65.96
  Total processes =                        9
  Total threads   =                       72
- Mop/s total     =                 18466.62
- Mop/s/thread    =                   256.48
+ Mop/s total     =                 18568.85
+ Mop/s/thread    =                   257.90
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.1
